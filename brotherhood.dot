@@ -111,7 +111,7 @@ digraph brotherhood {
 	{ rank = same; "Fall 2007"; "J.J. Moffitt"; "Matthew Richter"; "Dan Okienko"; "Steven Dee"; "Spencer York"; "Ben Lawler"; "Adam Brown"; "Grant Risch"; }
 	{ rank = same; "Spring 2008"; "Ray Zackowski"; "Jonathan Evans"; "Rob Grueninger"; "Mathew Conger"; "Randall Duke"; "David Kent"; "Josh Young"; }
 	{ rank = same; "Fall 2008"; "Josh Allen"; "John Cleaver"; "Jacob Gresh"; "Donald Huckle"; "Andrew Jakes"; "Kyle Marcey"; "Jacob Shapiro"; "Michael Steward"; "Rich Testani"; "Sandy Troiani"; "Paul Zackowski";}
-	{ rank = same; "Spring 2009"; "Hassan Awada"; "Peter Corwin"; "Tony Huron"; "Devon Jones"; "Myles Lewis"; "Robert Weisler"}
+	{ rank = same; "Spring 2009"; "Hassan Awada"; "Peter Corwin"; "Tony Huron"; "Devon Jones"; "Myles Lewis"; "Robert Wiesler"}
 	{ rank = same; "Fall 2009"; "Christopher Babecki"; "Fred Douglas"; "Will Earley"; "Rob Fraser"; "Andrew Gerst"; "Andrew Gilbert"; "Nathan Jackson"; "Kenneth Walther"; "Nathan McKinley"}
   	{ rank = same; "Spring 2010"; "Joseph Gordon"; "Kamron Palmer"; "Alec Runyan"; "Matthew Varley"}
 	{ rank = same; "Fall 2010"; "David Breen"; "Evan Gallo"; "Benjamin Kaplan"; "Zachary Olivos"; "Andrew Pentz"; "Martin Risch"; "Frank Singel"; "Benjamin VanArtsdalen"; "Vahagn Yeranossian"}
