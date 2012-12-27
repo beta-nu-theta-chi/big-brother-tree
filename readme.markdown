@@ -52,14 +52,14 @@ The Windows version of Graphviz is also available from [their website][gviz-wind
 From the command line, just run:
 
 ```
-dot -tpdf brotherhood.dot brotherhood.pdf
+dot -Tpdf brotherhood.dot > brotherhood.pdf
 ```
 
-Note to Windows users: you will need to run this command from the location where the `dot` program is located (Try looking in `c:\program files (x86)\graphviz`). You will also need to use the full path to the dot file. As an example:
+Note to Windows users: you may need to run this command from the location where the `dot` program is located (Try looking in `c:\program files (x86)\graphviz`). You will also need to use the full path to the dot file. As an example:
 
 ```
 cd c:\program files (x86)\graphviz
-dot -tpdf c:\Users\john\desktop\brotherhood.dot c:\Users\john\desktop\brotherhood.pdf
+dot -tpdf c:\Users\john\desktop\brotherhood.dot > c:\Users\john\desktop\brotherhood.pdf
 ```
 
-The `-t` flag tells dot which format to use for the output file. In this case, we are specifying PDF, but other formats like PNG may be used as well.
+The `-T` flag tells dot which format to use for the output file. In this case, we are specifying PDF, but other formats like PNG may be used as well.
