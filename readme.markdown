@@ -3,7 +3,7 @@
 
 This repository contains the markup describing the big brother tree for Beta Nu Chapter of Theta Chi Fraternity. It shows the relationships between big brothers and their little brothers. It has records back to the 60s (although the first 10 years or so are not known to be accurate).
 
-The current maintainer of the tree is John Cleaver (Kihashi).
+The current maintainer of the tree is Matthew Varley (mkv13@case.edu).
 
 ## Markup Language ##
 
