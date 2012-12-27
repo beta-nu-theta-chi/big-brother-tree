@@ -59,7 +59,7 @@ Note to Windows users: you may need to run this command from the location where 
 
 ```
 cd c:\program files (x86)\graphviz
-dot -tpdf c:\Users\john\desktop\brotherhood.dot > c:\Users\john\desktop\brotherhood.pdf
+dot -Tpdf c:\Users\john\desktop\brotherhood.dot > c:\Users\john\desktop\brotherhood.pdf
 ```
 
 The `-T` flag tells dot which format to use for the output file. In this case, we are specifying PDF, but other formats like PNG may be used as well.
