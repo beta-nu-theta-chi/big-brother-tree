@@ -1,22 +1,23 @@
 /******************************************
- * Beta Nu of Theta Chi Brotherhood tree. *
- * Spring 2008				  *
- * Arranged 2008 by Michael Moorman       *
- * This language has a C-like grammar and *
- * commenting system.			  *
+ * Beta Nu of Theta Chi Brotherhood tree. 
  *****************************************/
 digraph brotherhood {
 	ranksep=0; // minimum separation between ranks
 	concentrate=true; // gives a more flowing edge pattern
 	ratio=compress; // optimizes for horizontal space
 	size="50,50"; // gives it a square shape
+	
+	//Section 1
 	/* This first block represents a timeline on the left side. */
 	{
 		// Change font to something appropriate for your system
 		node [shape=plaintext, fontname="Nimbus Sans 1", fontsize=12];
 		edge [style=invis];
-		"Fall 1964" -> "Spring 1965" -> "Fall 1965" -> "Spring 1966" -> "Fall 1966" -> "Spring 1967" -> "Fall 1967" -> "Spring 1968" -> "Fall 1968" -> "Spring 1969" -> "Fall 1969" -> "Spring 1970" -> "Fall 1970" -> "Spring 1971" -> "Fall 1971" -> "Spring 1972" -> "Fall 1972" -> "Spring 1973" -> "Fall 1973" -> "Spring 1974" -> "Fall 1974" -> "Spring 1975" -> "Fall 1975" -> "Spring 1976" -> "Fall 1976" -> "Spring 1977" -> "Fall 1977" -> "Spring 1978" -> "Fall 1978" -> "Spring 1979" -> "Fall 1979" -> "Spring 1980" -> "Fall 1980" -> "Spring 1981" -> "Fall 1981" -> "Spring 1982" -> "Fall 1982" -> "Spring 1983" -> "Fall 1983" -> "Spring 1984" -> "Fall 1984" -> "Spring 1985" -> "Fall 1985" -> "Spring 1986" -> "Fall 1986" -> "Spring 1987" -> "Fall 1987" -> "Spring 1988" -> "Fall 1988" -> "Spring 1989" -> "Fall 1989" -> "Spring 1990" -> "Fall 1990" -> "Spring 1991" -> "Fall 1991" -> "Spring 1992" -> "Fall 1992" -> "Spring 1993" -> "Fall 1993" -> "Spring 1994" -> "Fall 1994" -> "Spring 1995" -> "Fall 1995" -> "Spring 1996" -> "Fall 1996" -> "Spring 1997" -> "Fall 1997" -> "Spring 1998" -> "Fall 1998" -> "Spring 1999" -> "Fall 1999" -> "Spring 2000" -> "Fall 2000" -> "Spring 2001" -> "Fall 2001" -> "Spring 2002" -> "Fall 2002" -> "Spring 2003" -> "Fall 2003" -> "Spring 2004" -> "Fall 2004" -> "Spring 2005" -> "Fall 2005" -> "Spring 2006" -> "Fall 2006" -> "Spring 2007" -> "Fall 2007" -> "Spring 2008" -> "Fall 2008" -> "Spring 2009" -> "Fall 2009" -> "Spring 2010" -> "Fall 2010" -> "Spring 2011" -> "Fall 2011" -> "Spring 2012" -> "Fall 2012"; 
+		//Put pledge classes here "Pledge Class 1" -> "Pledge Class 2"
+		"Fall 1964" -> "Spring 1965" -> "Fall 1965" -> "Spring 1966" -> "Fall 1966" -> "Spring 1967" -> "Fall 1967" -> "Spring 1968" -> "Fall 1968" -> "Spring 1969" -> "Fall 1969" -> "Spring 1970" -> "Fall 1970" -> "Spring 1971" -> "Fall 1971" -> "Spring 1972" -> "Fall 1972" -> "Spring 1973" -> "Fall 1973" -> "Spring 1974" -> "Fall 1974" -> "Spring 1975" -> "Fall 1975" -> "Spring 1976" -> "Fall 1976" -> "Spring 1977" -> "Fall 1977" -> "Spring 1978" -> "Fall 1978" -> "Spring 1979" -> "Fall 1979" -> "Spring 1980" -> "Fall 1980" -> "Spring 1981" -> "Fall 1981" -> "Spring 1982" -> "Fall 1982" -> "Spring 1983" -> "Fall 1983" -> "Spring 1984" -> "Fall 1984" -> "Spring 1985" -> "Fall 1985" -> "Spring 1986" -> "Fall 1986" -> "Spring 1987" -> "Fall 1987" -> "Spring 1988" -> "Fall 1988" -> "Spring 1989" -> "Fall 1989" -> "Spring 1990" -> "Fall 1990" -> "Spring 1991" -> "Fall 1991" -> "Spring 1992" -> "Fall 1992" -> "Spring 1993" -> "Fall 1993" -> "Spring 1994" -> "Fall 1994" -> "Spring 1995" -> "Fall 1995" -> "Spring 1996" -> "Fall 1996" -> "Spring 1997" -> "Fall 1997" -> "Spring 1998" -> "Fall 1998" -> "Spring 1999" -> "Fall 1999" -> "Spring 2000" -> "Fall 2000" -> "Spring 2001" -> "Fall 2001" -> "Spring 2002" -> "Fall 2002" -> "Spring 2003" -> "Fall 2003" -> "Spring 2004" -> "Fall 2004" -> "Spring 2005" -> "Fall 2005" -> "Spring 2006" -> "Fall 2006" -> "Spring 2007" -> "Fall 2007" -> "Spring 2008" -> "Fall 2008" -> "Spring 2009" -> "Fall 2009" -> "Spring 2010" -> "Fall 2010" -> "Spring 2011" -> "Fall 2011" -> "Spring 2012" -> "Fall 2012" -> "Spring 2013"; 
 	}
+	
+	//Section 2
 	/* This lists who was in which pledge class so that everyone from each pledge class is in the same rank. */
 	node [color=black, shape=ellipse, fontname="Nimbus Sans 1", fontsize=12];
 	edge [arrowhead=none, arrowtail=none];
@@ -56,7 +57,7 @@ digraph brotherhood {
 	{ rank = same; "Spring 1980"; "Mike Millstein"; "Dale Herman"; "Joe Snyder"; "Leon Kofman"; "Paul Tripi"; "Dale Pulver"; }
 	{ rank = same; "Fall 1980"; }
 	{ rank = same; "Spring 1981"; "Nick Skelin"; "Tim McHenry"; "Laszlo Ilyes"; "Rich Faldowski"; "Willie Bartok"; "Jim McAward"; }
-	{ rank = same; "Fall 1981"; "Randy Thome"; "Jay Hoying"; "Marvin McGowan"; "Paul Franceus" }
+	{ rank = same; "Fall 1981"; "Randy Thome"; "Jay Hoying"; "Marvin McGowan"; "Paul Franceus"; }
 	{ rank = same; "Spring 1982"; "Dave Kirsch"; "Con Audeh"; "Ken Ross"; "Kevin O'Toole"; }
 	{ rank = same; "Fall 1982"; "Rich Drushel"; "Bill Schiffman"; "Matt Davis"; "Jim Visconti"; "Jeff Damasiewicz"; "Karl Washburn"; }
 	{ rank = same; "Spring 1983"; "Curt Harkless"; "Tim Wilt"; "Mark Kikta"; "John Schienmann"; "Steve Farrington"; "Brian Walden"; "Tom Horwitz"; }
@@ -111,15 +112,17 @@ digraph brotherhood {
 	{ rank = same; "Fall 2007"; "J.J. Moffitt"; "Matthew Richter"; "Dan Okienko"; "Steven Dee"; "Spencer York"; "Ben Lawler"; "Adam Brown"; "Grant Risch"; }
 	{ rank = same; "Spring 2008"; "Ray Zackowski"; "Jonathan Evans"; "Rob Grueninger"; "Mathew Conger"; "Randall Duke"; "David Kent"; "Josh Young"; }
 	{ rank = same; "Fall 2008"; "Josh Allen"; "John Cleaver"; "Jacob Gresh"; "Donald Huckle"; "Andrew Jakes"; "Kyle Marcey"; "Jacob Shapiro"; "Michael Steward"; "Rich Testani"; "Sandy Troiani"; "Paul Zackowski";}
-	{ rank = same; "Spring 2009"; "Hassan Awada"; "Peter Corwin"; "Tony Huron"; "Devon Jones"; "Myles Lewis"; "Robert Wiesler"}
-	{ rank = same; "Fall 2009"; "Christopher Babecki"; "Fred Douglas"; "Will Earley"; "Rob Fraser"; "Andrew Gerst"; "Andrew Gilbert"; "Nathan Jackson"; "Kenneth Walther"; "Nathan McKinley"}
-  	{ rank = same; "Spring 2010"; "Joseph Gordon"; "Kamron Palmer"; "Alec Runyan"; "Matthew Varley"}
-	{ rank = same; "Fall 2010"; "David Breen"; "Evan Gallo"; "Benjamin Kaplan"; "Zachary Olivos"; "Andrew Pentz"; "Martin Risch"; "Frank Singel"; "Benjamin VanArtsdalen"; "Vahagn Yeranossian"}
-	{ rank = same; "Spring 2011"; "James Fitzpatrick"; "Christopher Galecki"; "Jason Kuster"; "Jeremy Na"}
-	{ rank = same; "Fall 2011"; "Michael Bending"; "Abraham Burkholder"; "Marco Rafael Cabrera"; "Ian Chapman"; "Matthew Graf"; "Oscar Gresh"; "Ryan Miller"; "Derek Payne"; "Aditya Rengaswamy"; "James Smith"; "Daniel Snow"; "Mark Syvuk"; "Andrew Zolyak"}
+	{ rank = same; "Spring 2009"; "Hassan Awada"; "Peter Corwin"; "Tony Huron"; "Devon Jones"; "Myles Lewis"; "Robert Wiesler";}
+	{ rank = same; "Fall 2009"; "Christopher Babecki"; "Fred Douglas"; "Will Earley"; "Rob Fraser"; "Andrew Gerst"; "Andrew Gilbert"; "Nathan Jackson"; "Kenneth Walther"; "Nathan McKinley";}
+  	{ rank = same; "Spring 2010"; "Joseph Gordon"; "Kamron Palmer"; "Alec Runyan"; "Matthew Varley";}
+	{ rank = same; "Fall 2010"; "David Breen"; "Evan Gallo"; "Benjamin Kaplan"; "Zachary Olivos"; "Andrew Pentz"; "Martin Risch"; "Frank Singel"; "Benjamin VanArtsdalen"; "Vahagn Yeranossian"; "Abbott Veldhuizen";}
+	{ rank = same; "Spring 2011"; "James Fitzpatrick"; "Christopher Galecki"; "Jason Kuster"; "Jeremy Na";}
+	{ rank = same; "Fall 2011"; "Michael Bending"; "Abraham Burkholder"; "Marco Rafael Cabrera"; "Ian Chapman"; "Matthew Graf"; "Oscar Gresh"; "Ryan Miller"; "Derek Payne"; "Aditya Rengaswamy"; "James Smith"; "Daniel Snow"; "Mark Syvuk"; "Andrew Zolyak";}
 	{ rank = same; "Spring 2012"; "Alexander Aloi"; "Nathan Hach"; "Alexander O'Reilly"; "Mason Zhu"; "Alex Campbell";}
-	{rank = same; "Fall 2012"; "Alexander Thomas"; "Nathan Gill"; "Michael Anderson"; "Barry Goldberg"; "Andrew Becker"; "William Ewing";}
+	{ rank = same; "Fall 2012"; "Alexander Thomas"; "Nathan Gill"; "Michael Anderson"; "Barry Goldberg"; "Andrew Becker"; "William Ewing";}
+	{ rank = same; "Spring 2013"; "David Aghassi"; "Alex Balbes"; "John Elmo"; "Matthew Elmo"; "Donald Endres"; "Austin Hacker"; "Andrew Henderson"; "Alex Luck"; "Daniel Robbins"; "Jonathan Shabtai"; "Rishe Sivagnanam"; "Devyn Spillane"; "Joshua Tang"; "Hunter Yevincy";}
 	
+	//Section 3
 	/* Big brother -> Little brother.  Sorted alphabetically by big brother last name. */
 	"Dan Alt" -> "Dave Rogers";
 	"Dan Alt" -> "Ben Schroeder";
@@ -147,6 +150,7 @@ digraph brotherhood {
 	"Mark Bertison" -> "John Zeitler";
 	"Michael Bending" -> "Alexander O'Reilly";
 	"Michael Bending" -> "Michael Anderson";
+	"Michael Bending" -> "John Elmo";
 	"Larry Bisset" -> "John Rusek";
 	"Dave Bond" -> "Marvin McGowan";
 	"Dave Bond" -> "Brian Walden";
@@ -161,6 +165,7 @@ digraph brotherhood {
 	"Joshua Brown" -> "David Eshelman";
 	"Joshua Brown" -> "Zac Crofford";
 	"Alex Campbell" -> "Alexander Thomas";
+	"Alex Campbell" -> "Joshua Tang";
 	"Louis Campbell" -> "Aaron Erlandson";
 	"Manna Case" -> "Julius Moldovanyi";
 	"James Cash" -> "Michael Moorman";
@@ -255,6 +260,8 @@ digraph brotherhood {
 	"Christopher Galecki" -> "James Smith";
 	"Christopher Galecki" -> "Alexander Aloi";
 	"Christopher Galecki" -> "William Ewing";
+	"Christopher Galecki" -> "Devyn Spillane";
+	"Evan Gallo" -> "Alex Luck";
 	"Jim Gentry" -> "Randy Thome";
 	"Jim Gentry" -> "Willie Bartok";
 	"Charles Gerner" -> "Steve Olk";
@@ -268,6 +275,8 @@ digraph brotherhood {
 	"Paul Gerwe" -> "John Cover";
 	"Paul Gerwe" -> "Ben Stern";
 	"Jim Gialamas" -> "Laszlo Ilyes";
+	"Nathan Gill" -> "Donald Endres";
+	"Barry Goldberg" -> "Alex Balbes";
 	"Charlie Goodson" -> "Clint Schmidt";
 	"Dave Gordon" -> "Oscar Lee";
 	"Dave Gordon" -> "Morris Levy";
@@ -329,6 +338,7 @@ digraph brotherhood {
 	"Eric Kugler" -> "Ian Scholdberg";
 	"Jason Kuster" -> "Ryan Miller";
 	"Jason Kuster" -> "Nathan Gill";
+	"Jason Kuster" -> "Rishe Sivagnanam";
 	"Andy Langenderfer" -> "Robin Gersabeck";
 	"Andy Langenderfer" -> "Matt Dria";
 	"Ben Lawler" -> "Sandy Troiani";
@@ -382,6 +392,7 @@ digraph brotherhood {
 	"Dan Myers" -> "John Boyer";
 	"Dan Myers" -> "Daniel Neumann";
 	"Dan Myers" -> "Jason Harper";
+	"Jeremy Na" -> "David Aghassi";
 	"Harmeet Narang" -> "Colin Fahrion";
 	"Harmeet Narang" -> "Joshua Brown";
 	"Raj Narayan" -> "Dave Peascoe";
@@ -393,6 +404,7 @@ digraph brotherhood {
 	"Joe Nikstenas" -> "Seth Walter";
 	"Michael O'Neil" -> "Eric Carnevale";
 	"Michael O'Neil" -> "Michael Rhoades";
+	"Alexander O'Reilly" -> "Andrew Henderson";
 	"Kevin O'Toole" -> "Curt Harkless";
 	"Kevin O'Toole" -> "Jim Robejsek";
 	"Zachary Olivos" -> "Nathan Hach";
@@ -415,6 +427,7 @@ digraph brotherhood {
 	"Scott Pearson" -> "Brian Martin";
 	"Scott Pearson" -> "John McGlaughlin";
 	"Dave Peascoe" -> "Michael Monkiewicz";
+	"Andrew Pentz" -> "Matthew Elmo";
 	"Stan Polcar" -> "Arthur Scott";
 	"Stan Polcar" -> "Dana Zahuranic";
 	"Tao Qin" -> "Andy Langenderfer";
@@ -433,6 +446,7 @@ digraph brotherhood {
 	"Matthew Richter" -> "Aditya Rengaswamy";
 	"Grant Risch" -> "Will Earley";
 	"Martin Risch" -> "Ian Chapman";
+	"Martin Risch" -> "Hunter Yevincy";
 	"Samuel Rivier" -> "Tim Franke";
 	"Jeff Roberts" -> "Chris Williams";
 	"Todd Rogers" -> "Chris Applegate";
@@ -464,6 +478,7 @@ digraph brotherhood {
 	"Stan Shmia" -> "John Whiting";
 	"Ben Sigg" -> "Eric Friesen";
 	"Frank Singel" -> "Oscar Gresh";
+	"Frank Singel" -> "Jonathan Shabtai";
 	"Nick Skelin" -> "Dave Kirsch";
 	"Nick Skelin" -> "Paul Franceus";
 	"Nick Skelin" -> "Bob Snyder";
@@ -473,6 +488,7 @@ digraph brotherhood {
 	"Kosma Sniezko" -> "James Cash";
 	"Kosma Sniezko" -> "Eric Young";
 	"Kosma Sniezko" -> "Jon Chang";
+	"Daniel Snow" -> "Daniel Robbins";
 	"Bob Snyder" -> "Craig Austin";
 	"Bob Snyder" -> "Chris Kovski";
 	"Scott Sparenberg" -> "Terry Patterson";
@@ -504,6 +520,7 @@ digraph brotherhood {
 	"Abbott Veldhuizen" -> "Jeremy Na";
 	"Abbott Veldhuizen" -> "Michael Bending";
 	"Abbott Veldhuizen" -> "Andrew Becker";
+	"Abbott Veldhuizen" -> "Austin Hacker";
 	"Robert Wake" -> "Henry Finkle";
 	"Vic Walach" -> "Tom Kuzmarski";
 	"Vic Walach" -> "Dave Pheanis";
