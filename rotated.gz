@@ -1,0 +1,607 @@
+/******************************************
+ * Beta Nu of Theta Chi Brotherhood tree.
+ *****************************************/
+digraph brotherhood {
+	ranksep=0; // minimum separation between ranks
+	concentrate=true; // gives a more flowing edge pattern
+	//ratio=compress; // optimizes for horizontal space
+	size="150,75"; 
+	rankdir=LR
+
+	//Section 1
+	/* This first block represents a timeline on the left side. */
+	{
+		// Change font to something appropriate for your system
+		node [shape=plaintext, fontname="Nimbus Sans 1", fontsize=12];
+		edge [style=invis];
+		//Put pledge classes here "Pledge Class 1" -> "Pledge Class 2"
+		"Fall 1964" -> "Spring 1965" -> "Fall 1965" -> "Spring 1966" -> "Fall 1966" -> "Spring 1967" -> "Fall 1967" -> "Spring 1968" -> "Fall 1968" -> "Spring 1969" -> "Fall 1969" -> "Spring 1970" -> "Fall 1970" -> "Spring 1971" -> "Fall 1971" -> "Spring 1972" -> "Fall 1972" -> "Spring 1973" -> "Fall 1973" -> "Spring 1974" -> "Fall 1974" -> "Spring 1975" -> "Fall 1975" -> "Spring 1976" -> "Fall 1976" -> "Spring 1977" -> "Fall 1977" -> "Spring 1978" -> "Fall 1978" -> "Spring 1979" -> "Fall 1979" -> "Spring 1980" -> "Fall 1980" -> "Spring 1981" -> "Fall 1981" -> "Spring 1982" -> "Fall 1982" -> "Spring 1983" -> "Fall 1983" -> "Spring 1984" -> "Fall 1984" -> "Spring 1985" -> "Fall 1985" -> "Spring 1986" -> "Fall 1986" -> "Spring 1987" -> "Fall 1987" -> "Spring 1988" -> "Fall 1988" -> "Spring 1989" -> "Fall 1989" -> "Spring 1990" -> "Fall 1990" -> "Spring 1991" -> "Fall 1991" -> "Spring 1992" -> "Fall 1992" -> "Spring 1993" -> "Fall 1993" -> "Spring 1994" -> "Fall 1994" -> "Spring 1995" -> "Fall 1995" -> "Spring 1996" -> "Fall 1996" -> "Spring 1997" -> "Fall 1997" -> "Spring 1998" -> "Fall 1998" -> "Spring 1999" -> "Fall 1999" -> "Spring 2000" -> "Fall 2000" -> "Spring 2001" -> "Fall 2001" -> "Spring 2002" -> "Fall 2002" -> "Spring 2003" -> "Fall 2003" -> "Spring 2004" -> "Fall 2004" -> "Spring 2005" -> "Fall 2005" -> "Spring 2006" -> "Fall 2006" -> "Spring 2007" -> "Fall 2007" -> "Spring 2008" -> "Fall 2008" -> "Spring 2009" -> "Fall 2009" -> "Spring 2010" -> "Fall 2010" -> "Spring 2011" -> "Fall 2011" -> "Spring 2012" -> "Fall 2012" -> "Spring 2013"->"Fall 2013"->"Spring 2014"->"Fall 2014"->"Spring 2015";
+	}
+
+	//Section 2
+	/* This lists who was in which pledge class so that everyone from each pledge class is in the same rank. */
+	node [color=black, shape=ellipse, fontname="Nimbus Sans 1", fontsize=12];
+	edge [arrowhead=none, arrowtail=none];
+	/* Data from before 1973 is incomplete and probably inaccurate */
+	{ rank = same; "Fall 1964"; "Vic Walach"; "Robert Reinhofer"; "Robert Wake"; "Stan Polcar"; }
+	{ rank = same; "Spring 1965"; "Cedric Dilsizian"; "Henry Finkle"; "Arthur Scott"; "Tom Kuzmarski"; "Dave Pheanis"; }
+	{ rank = same; "Fall 1965"; }
+	{ rank = same; "Spring 1966"; "William Patterson"; "Tom Dohnal"; "Dana Zahuranic"; }
+	{ rank = same; "Fall 1966"; }
+	{ rank = same; "Spring 1967"; }
+	{ rank = same; "Fall 1967"; }
+	{ rank = same; "Spring 1968"; "Manna Case"; }
+	{ rank = same; "Fall 1968"; "Julius Moldovanyi"; }
+	{ rank = same; "Spring 1969"; "Doug Day"; }
+	{ rank = same; "Fall 1969"; }
+	{ rank = same; "Spring 1970"; "Paul Williams"; "Bob Eyerman"; "Larry Bisset"; }
+	{ rank = same; "Fall 1970"; }
+	{ rank = same; "Spring 1971"; "Dave Reid"; "Ted Brenneman"; }
+	{ rank = same; "Fall 1971"; "Walt Mahovlich"; }
+	{ rank = same; "Spring 1972"; "Doug Clafin"; }
+	{ rank = same; "Fall 1972"; }
+	/* Everything below here is fairly accurate */
+	{ rank = same; "Spring 1973"; "Bob DiVincenzo"; "Mark Bertison"; "Dave Kjeldgaard"; "Dave Gordon"; "Jim Strand"; "Stan Toncich"; "John Rusek"; "Ron Kaneshiro"; }
+	{ rank = same; "Fall 1973"; "Ron Hogue"; "Morris Levy"; "Glenn Pierce"; }
+	{ rank = same; "Spring 1974"; "Steve Nicol"; "Greg Beer"; "Oscar Lee"; }
+	{ rank = same; "Fall 1974"; "John Zeitler"; "John Stehli"; "Scott Sparenberg"; }
+	{ rank = same; "Spring 1975"; "Dave Marvinney"; "Mark Yunker"; }
+	{ rank = same; "Fall 1975"; }
+	{ rank = same; "Spring 1976"; "Craig Marvinney"; }
+	{ rank = same; "Fall 1976"; }
+	{ rank = same; "Spring 1977"; "Ken Kosovich"; "Dore Shafransky"; "Doug Cullin"; "Joe Koehler"; }
+	{ rank = same; "Fall 1977"; "Dave Bond"; "Dave Fletcher"; "Norm Lindner"; "Terry Patterson"; }
+	{ rank = same; "Spring 1978"; "Brian Marble"; "Tom Gorensick"; "Joe Hrovat"; "Edgar Stehli"; "Barney Olson"; }
+	{ rank = same; "Fall 1978"; "Mike McHenry"; "Ched Stanisic"; }
+	{ rank = same; "Spring 1979"; "Dave Shapiro"; "Rick Tomsick"; "John Parsons"; "Jim Gialamas"; "Rob Hurd"; "Jim Gentry"; }
+	{ rank = same; "Fall 1979"; "Rick Targosky"; }
+	{ rank = same; "Spring 1980"; "Mike Millstein"; "Dale Herman"; "Joe Snyder"; "Leon Kofman"; "Paul Tripi"; "Dale Pulver"; }
+	{ rank = same; "Fall 1980"; }
+	{ rank = same; "Spring 1981"; "Nick Skelin"; "Tim McHenry"; "Laszlo Ilyes"; "Rich Faldowski"; "Willie Bartok"; "Jim McAward"; }
+	{ rank = same; "Fall 1981"; "Randy Thome"; "Jay Hoying"; "Marvin McGowan"; "Paul Franceus"; }
+	{ rank = same; "Spring 1982"; "Dave Kirsch"; "Con Audeh"; "Ken Ross"; "Kevin O'Toole"; }
+	{ rank = same; "Fall 1982"; "Rich Drushel"; "Bill Schiffman"; "Matt Davis"; "Jim Visconti"; "Jeff Damasiewicz"; "Karl Washburn"; }
+	{ rank = same; "Spring 1983"; "Curt Harkless"; "Tim Wilt"; "Mark Kikta"; "John Schienmann"; "Steve Farrington"; "Brian Walden"; "Tom Horwitz"; }
+	{ rank = same; "Fall 1983"; "Dave Targosky"; "Scott Pearson"; "Rich Kairis"; "Bob Snyder"; "Joe Bonilla"; }
+	{ rank = same; "Spring 1984"; "Michael Keresztesy"; "Brian Martin"; }
+	{ rank = same; "Fall 1984"; "Craig Austin"; "Mike LeMire"; "Peter Szigeti"; "Chris DeHaas"; }
+	{ rank = same; "Spring 1985"; "Art Brace"; "Jim Robejsek"; "Bill Yale"; "Soon Kang"; "Michael Marks"; "Chris Kovski"; "Dennis Wendling"; }
+	{ rank = same; "Fall 1985"; "Mark Keresztesy"; "John Shin"; "Tim Dunagan"; }
+	{ rank = same; "Spring 1986"; "Pete Kaufmann"; "Steve Cox"; "Allan Zoller"; "Scott Froelich"; }
+	{ rank = same; "Fall 1986"; "Scott Weintraub"; "Tom Mele"; "Chris Frost"; "John McGlaughlin"; "Bruce Delaney"; "Mike Rappaport"; "Herb Lichtman"; "Randy Rouda"; }
+	{ rank = same; "Spring 1987"; "Pete Dinin"; "Joe Nikstenas"; "Alex Kranz"; "Neal Kozlowski"; "Andy Terris"; }
+	{ rank = same; "Fall 1987"; }
+	{ rank = same; "Spring 1988"; "James Nauer"; "Yong Park"; "Seth Rich"; }
+	{ rank = same; "Fall 1988"; "Jeff Cohen"; "Ned Johnson"; "Seth Walter"; "John Eddy"; "Patrick Nevers"; "Paul May"; "Stan Shmia"; "Joel Meltzer"; }
+	{ rank = same; "Spring 1989"; "Eric Meyer"; "Steve Hartmeyer"; "Ben Winter"; }
+	{ rank = same; "Fall 1989"; "John Husemoller"; "Troy Babcock"; "Siva Paramanandam"; "Jared Bendis"; }
+	{ rank = same; "Spring 1990"; "Mike Pullin"; "Steve Clute"; }
+	{ rank = same; "Fall 1990"; "Mike Opincar"; "Benjamin Schultz"; "Paul Gerwe"; "Anthony Bucci"; "Benjamin Asher"; "Neil Forbes"; "Howard Wolf"; "Shannon Kalvar"; }
+	{ rank = same; "Spring 1991"; "J.J. Wurz"; "Geoff Wedig"; "Raj Narayan"; "Ken Batcher"; "John Whiting"; "Matt Slotten"; "Tom Belcher"; }
+	{ rank = same; "Fall 1991"; "Jim Ogle"; "Dan Alt"; "Brent Keith"; }
+	{ rank = same; "Spring 1992"; "John Milliard"; "Gregory Jehan"; }
+	{ rank = same; "Fall 1992"; "Mike Witczak"; "Todd Kramer"; "Sean O'Toole"; "Harmeet Narang"; "Tony Waylonis"; "Dave Peascoe"; "David Kahane"; "Ben Stern"; "John Grimley"; "Todd Lenz"; }
+	{ rank = same; "Spring 1993"; "Dave Rogers"; "Mike Ganahl"; "Joe Klich"; "John Cover"; "Chris Dreher"; }
+	{ rank = same; "Fall 1993"; "Cory Hojka"; "Ethan Field"; "Wes Shull"; "Andy West"; "Ken DeYoung"; "Matt Smith"; "Andy Wartluft"; }
+	{ rank = same; "Spring 1994"; "Adam Shiel"; "Brian Doerk"; "Skylor Williams"; "Nick Brienza"; "Colin Fahrion"; }
+	{ rank = same; "Fall 1994"; "Ben Schroeder"; "Kendrick Shaw"; "Jeremy Friesen"; "Justin Shepard"; "Martin Witczak"; "John Chunko"; "Joshua Brown"; "Michael Ashmore"; }
+	{ rank = same; "Spring 1995"; "Matt Schwickerath"; "David Lukens"; "Rob Brower"; "Steve Antol"; }
+	{ rank = same; "Fall 1995"; "Nathan Dombrook"; "David Eshelman"; "Louis Campbell"; "Jason Freshwater"; "Harry Meier"; "Scott Schwickerath"; "Glen Brown"; }
+	{ rank = same; "Spring 1996"; "Mike Reed"; "Nathan Sterret"; "Jason Dieterle"; "Brian Lutz"; "Dan Khanna"; "Tod Kenzie"; }
+	{ rank = same; "Fall 1996"; "Jeffrey Moore"; "David Chapin"; "Martin Wojtowicz"; "David Eubank"; }
+	{ rank = same; "Spring 1997"; "Adam Vandenberg"; "Steve Manchir"; "Brad Triden"; }
+	{ rank = same; "Fall 1997"; "Ian McIntire"; "Joseph Dodd"; "Chris Harley"; "Zac Crofford"; "Michael Monkiewicz"; "Tod Detre"; "Michael Thomas"; "Charles Gerner"; "Louis Gluchov"; }
+	{ rank = same; "Spring 1998"; "Brion Finlay"; "Mike Fullmer"; }
+	{ rank = same; "Fall 1998"; "Scott Limestoll"; "Steve Olk"; "Matthew Finlay"; "Marcel Proulx"; "Chris Roper"; "Jacob Spendelow"; "Jeff Roberts"; "Jeremy Shively"; "Todd Rogers"; "Aaron Erlandson"; "Michael O'Neil"; "Greg Cox"; "Leon Smith"; "Alex Janevski"; "Grayden MacLennan"; }
+	{ rank = same; "Spring 1999"; "Kent Furst"; "Nathan Kurtz"; "Brian Stephens"; "Ben Sigg"; }
+	{ rank = same; "Fall 1999"; "Tim Sentgeorge"; "Alex Parker"; "Niuniu Ji"; "Matt Massaro"; "Eric Kugler"; "Aruno Johnson"; "Brian Berman"; "Charlie Goodson"; }
+	{ rank = same; "Spring 2000"; "Joel Scheuer"; "Ed Wyzykowski"; "Bryan Inderhees"; "Bob Vawter"; "Matt Whelan"; }
+	{ rank = same; "Fall 2000"; "Ian Scholdberg"; "Chris Weygandt"; "Michael Rhoades"; "Chris Applegate"; "Eric Friesen"; "Grayson Sieg"; "Jeff Shugars"; }
+	{ rank = same; "Spring 2001"; "Steve Andersen"; "Chris Williams"; "Clint Schmidt"; "Kevin Dudgeon"; "Steve Rash"; "Graham Unger"; }
+	{ rank = same; "Fall 2001"; "Eric Carnevale"; "Chris Weigold"; "Brett Thomas"; "Chris Weigold"; "Nicholai Salovich"; "Mike Olenik"; "Michael St. Clair"; "Aaron Yoches"; }
+	{ rank = same; "Spring 2002"; "Kosma Sniezko"; "Mikkel Fishman"; "Justin Walker"; "Tao Qin"; "Jeffery Spencer"; "Geoff Shafer"; "Nick Eddy";  }
+	{ rank = same; "Fall 2002"; "Steve Wentzel"; "Clarence Williamson"; "Brian Brauchler"; "Rob Eisenman"; "Eric Young"; "Marc Reynolds"; "Robert Detwiler"; }
+	{ rank = same; "Spring 2003"; }
+	{ rank = same; "Fall 2003"; "Dan Myers"; "Andy Langenderfer"; "Jon Chang"; "Alex Smith"; "Matt Hire"; "AJ Barker"; }
+	{ rank = same; "Spring 2004"; }
+	{ rank = same; "Fall 2004"; "Jason Harper"; "Derek Overstreet"; "Devon Parker"; "James Cash"; "Jim Stafford"; "Blaine Evans"; "Matt Dria"; "Alex Imhoff"; "Paul Taylor"; }
+	{ rank = same; "Spring 2005"; "Michael Moorman"; "Daniel Neumann"; "Robin Gersabeck"; "Samuel Rivier"; "Zach Stevens"; "Nick Callahan"; "Quinn Daniels"; }
+	{ rank = same; "Fall 2005"; "John Boyer"; "Andrew Winstead"; "Josh Considine"; "Chase Nemeth"; "Tim Franke"; "Chris J. Williams"; "Mike Usowicz"; }
+	{ rank = same; "Spring 2006"; "Mike Pavlik"; "Amit Misra"; "Andrew Schwirian"; "Dave Allen"; }
+	{ rank = same; "Fall 2006"; "C Y Wo"; "Adam Wisniewski"; "Neeraj Edward"; "Charles Pairan"; "Michael Caughey"; "Noah Swartz"; "Fred Davey"; }
+	{ rank = same; "Spring 2007"; "Ken Zhao"; "Connor Balin"; "Chris Tanner"; "Jon Vesey"; "Matt Miller"; "Neil Halmagyi"; }
+	{ rank = same; "Fall 2007"; "J.J. Moffitt"; "Matthew Richter"; "Dan Okienko"; "Steven Dee"; "Spencer York"; "Ben Lawler"; "Adam Brown"; "Grant Risch"; }
+	{ rank = same; "Spring 2008"; "Ray Zackowski"; "Jonathan Evans"; "Rob Grueninger"; "Mathew Conger"; "Randall Duke"; "David Kent"; "Josh Young"; }
+	{ rank = same; "Fall 2008"; "Josh Allen"; "John Cleaver"; "Jacob Gresh"; "Donald Huckle"; "Andrew Jakes"; "Kyle Marcey"; "Jacob Shapiro"; "Michael Steward"; "Rich Testani"; "Sandy Troiani"; "Paul Zackowski";}
+	{ rank = same; "Spring 2009"; "Hassan Awada"; "Peter Corwin"; "Tony Huron"; "Devon Jones"; "Myles Lewis"; "Robert Wiesler";}
+	{ rank = same; "Fall 2009"; "Christopher Babecki"; "Fred Douglas"; "Will Earley"; "Rob Fraser"; "Andrew Gerst"; "Andrew Gilbert"; "Nathan Jackson"; "Kenneth Walther"; "Nathan McKinley";}
+  	{ rank = same; "Spring 2010"; "Joseph Gordon"; "Kamron Palmer"; "Alec Runyan"; "Matthew Varley";}
+	{ rank = same; "Fall 2010"; "David Breen"; "Evan Gallo"; "Benjamin Kaplan"; "Zachary Olivos"; "Andrew Pentz"; "Martin Risch"; "Frank Singel"; "Benjamin VanArtsdalen"; "Vahagn Yeranossian"; "Abbott Veldhuizen";}
+	{ rank = same; "Spring 2011"; "James Fitzpatrick"; "Christopher Galecki"; "Jason Kuster"; "Jeremy Na";}
+	{ rank = same; "Fall 2011"; "Michael Bending"; "Abraham Burkholder"; "Raisa Cabrera"; "Ian Chapman"; "Matthew Graf"; "Oscar Gresh"; "Ryan Miller"; "Derek Payne"; "Aditya Rengaswamy"; "James Smith"; "Daniel Snow"; "Mark Syvuk"; "Andrew Zolyak";}
+	{ rank = same; "Spring 2012"; "Alexander Aloi"; "Nathan Hach"; "Alexander O'Reilly"; "Mason Zhu"; "Alex Campbell";}
+	{ rank = same; "Fall 2012"; "Alexander Thomas"; "Nathan Gill"; "Michael Anderson"; "Barry Goldberg"; "Andrew Becker"; "William Ewing";}
+	{ rank = same; "Spring 2013"; "David Aghassi"; "Alex Balbes"; "John Elmo"; "Matthew Elmo"; "Donald Endres"; "Austin Hacker"; "Andrew Henderson"; "Alex Luck"; "Daniel Robbins"; "Jonathan Shabtai"; "Rishe Sivagnanam"; "Devyn Spillane"; "Joshua Tang"; "Hunter Yevincy";}
+	{ rank = same; "Fall 2013"; "Callum Grant"; "Nathan Harmon"; "Patrick Lathrop"; "Karthik Mohanarangan"; "Peyton Turner"; "John Turner"; "Chris Weddle"; "Zack Williams";}
+	{ rank = same; "Spring 2014"; "James McGinnity"; "Devin Hagedorn"; "Andrew Leppo"; "Bennett Sherman"; "Kristopher Sabatini";}
+	{ rank = same; "Fall 2014"; "Nikhil Edward"; "Alec Frye"; "Patrick Green"; "Jack LaRue"; "Patrick Mulhair"; "Geal Sarrett"; "Alex Tryjankowski";}
+	{ rank = same; "Spring 2015"; "Matthew Bentley"; "David Lance"; "John Peterson"; "Ryan Hawtof"; "Jaime Capetillo"; "Matthew Trowbridge"; "Bryce Downing";}
+
+
+	//Section 3
+	/* Big brother -> Little brother.  Sorted alphabetically by big brother last name. */
+	"Dan Alt" -> "Dave Rogers";
+	"Dan Alt" -> "Ben Schroeder";
+	"Dan Alt" -> "Glen Brown";
+	"Steve Andersen" -> "Rob Eisenman";
+	"Michael Anderson" -> "Nathan Harmon";
+	"Benjamin Asher" -> "Sean O'Toole";
+	"Benjamin Asher" -> "John Milliard";
+	"Michael Ashmore" -> "Steve Antol";
+	"Con Audeh" -> "Jim Visconti";
+  	"Hassan Awada" -> "Joseph Gordon";
+	"Hassan Awada" -> "Martin Risch";
+	"Troy Babcock" -> "Harmeet Narang";
+	"Troy Babcock" -> "Benjamin Asher";
+	"Christopher Babecki" -> "Evan Gallo";
+	"Alex Balbes" -> "Kristopher Sabatini";
+	"Connor Balin" -> "Mathew Conger";
+	"Connor Balin" -> "Kyle Marcey";
+	"Connor Balin" -> "Vahagn Yeranossian";
+	"Willie Bartok" -> "Jay Hoying";
+	"Willie Bartok" -> "Matt Davis";
+	"Willie Bartok" -> "Pete Dinin";
+	"Willie Bartok" -> "Ken Ross";
+	"Willie Bartok" -> "Tim Wilt";
+	"Willie Bartok" -> "Chris DeHaas";
+	"Mark Bertison" -> "Craig Marvinney";
+	"Mark Bertison" -> "John Zeitler";
+	"Michael Bending" -> "Alexander O'Reilly";
+	"Michael Bending" -> "Michael Anderson";
+	"Michael Bending" -> "John Elmo";
+	"Larry Bisset" -> "John Rusek";
+	"Dave Bond" -> "Marvin McGowan";
+	"Dave Bond" -> "Brian Walden";
+	"Joe Bonilla" -> "Jeff Cohen";
+	"Joe Bonilla" -> "Mike LeMire";
+	"John Boyer" -> "Noah Swartz";
+	"John Boyer" -> "Jon Vesey";
+	"John Boyer" -> "Dan Okienko";
+	"Ted Brenneman" -> "Greg Beer";
+	"Ted Brenneman" -> "Mark Bertison";
+	"Joshua Brown" -> "Mike Fullmer";
+	"Joshua Brown" -> "David Eshelman";
+	"Joshua Brown" -> "Zac Crofford";
+	"Alex Campbell" -> "Alexander Thomas";
+	"Alex Campbell" -> "Joshua Tang";
+	"Alex Campbell" -> "Callum Grant";
+	"Louis Campbell" -> "Aaron Erlandson";
+	"Manna Case" -> "Julius Moldovanyi";
+	"James Cash" -> "Michael Moorman";
+	"Michael Caughey" -> "Ben Lawler";
+	"Jon Chang" -> "Paul Taylor";
+	"Jon Chang" -> "Andrew Schwirian";
+	"John Chunko" -> "Martin Wojtowicz"
+	"John Chunko" -> "Dan Khanna";
+	"Doug Clafin" -> "Stan Toncich";
+	"Doug Clafin" -> "Dave Fletcher";
+	"John Cleaver" -> "Nathan Jackson"
+	"John Cleaver" -> "Benjamin Kaplan";
+	"John Cleaver" -> "Jason Kuster";
+	"Jeff Cohen" -> "John Husemoller";
+	"Jeff Cohen" -> "J.J. Wurz";
+	"Jeff Cohen" -> "Mike Opincar";
+	"Mathew Conger" -> "Rich Testani";
+  	"Mathew Conger" -> "Alec Runyan";
+	"Mathew Conger" -> "David Breen";
+	"Josh Considine" -> "Neil Halmagyi";
+	"John Cover" -> "Mike Reed";
+	"Greg Cox" -> "Bob Vawter";
+	"Steve Cox" -> "Mike Rappaport";
+	"Zac Crofford" -> "Michael O'Neil";
+	"Zac Crofford" -> "Aruno Johnson";
+	"Jeff Damasiewicz" -> "Rich Kairis";
+	"Quinn Daniels" -> "Josh Considine";
+	"Quinn Daniels" -> "Michael Caughey";
+	"Fred Davey" -> "Ray Zackowski"
+	"Doug Day" -> "Paul Williams";
+	"Steven Dee" -> "David Kent";
+	"Steven Dee" -> "John Cleaver";
+	"Chris DeHaas" -> "Randy Rouda";
+	"Chris DeHaas" -> "Joe Nikstenas";
+	"Chris DeHaas" -> "Pete Kaufmann";
+	"Bruce Delaney" -> "Patrick Nevers";
+	"Bruce Delaney" -> "Siva Paramanandam";
+	"Robert Detwiler" -> "Dan Myers";
+	"Jason Dieterle" -> "Todd Rogers";
+	"Jason Dieterle" -> "Matt Massaro";
+	"Cedric Dilsizian" -> "William Patterson";
+	"Cedric Dilsizian" -> "Manna Case";
+	"Bob DiVincenzo" -> "Ron Hogue";
+	"Brian Doerk" -> "Brad Triden"
+	"Brian Doerk" -> "Harry Meier";
+	"Nathan Dombrook" -> "Tod Kenzie";
+	"Kevin Dudgeon" -> "Clarence Williamson";
+	"Kevin Dudgeon" -> "Tao Qin";
+	"Neeraj Edward" -> "Jonathan Evans";
+	"Neeraj Edward" -> "Peter Corwin";
+	"Rob Eisenman" -> "Derek Overstreet";
+	"Rob Eisenman" -> "Nick Callahan";
+	"Donald Endres" -> "Matthew Trowbridge";
+	"David Eshelman" -> "Nathan Kurtz";
+	"David Eshelman" -> "David Eubank";
+	"David Eshelman" -> "Joseph Dodd";
+	"David Eshelman" -> "Leon Smith"
+	"David Eubank" -> "Chris Harley";
+	"Blaine Evans" -> "Andrew Winstead";
+	"Jonathan Evans" -> "Rob Fraser"
+	"Bob Eyerman" -> "Ted Brenneman";
+	"Bob Eyerman" -> "Bob DiVincenzo";
+	"Bob Eyerman" -> "Dave Gordon";
+	"Colin Fahrion" -> "Rob Brower";
+	"Colin Fahrion" -> "John Chunko";
+	"Steve Farrington" -> "Scott Pearson";
+	"Steve Farrington" -> "Steve Cox";
+	"Ethan Field" -> "Brian Lutz";
+	"Ethan Field" -> "Louis Campbell";
+	"Ethan Field" -> "David Chapin";
+	"Ethan Field" -> "Martin Witczak";
+	"Brion Finlay" -> "Chris Roper";
+	"Mikkel Fishman" -> "Matt Hire";
+	"James Fitzpatrick" -> "Matthew Graf";
+	"James Fitzpatrick" -> "James McGinnity";
+	"James Fitzpatrick" -> "Peyton Turner";
+	"Dave Fletcher" -> "Ched Stanisic";
+	"Dave Fletcher" -> "Jim Gentry";
+	"Tim Franke" -> "Adam Wisniewski";
+	"Jason Freshwater" -> "Ben Sigg";
+	"Eric Friesen" -> "Blaine Evans";
+	"Eric Friesen" -> "Kosma Sniezko";
+	"Eric Friesen" -> "Marc Reynolds";
+	"Jeremy Friesen" -> "Jeffrey Moore";
+	"Jeremy Friesen" -> "Adam Vandenberg";
+	"Jeremy Friesen" -> "Charles Gerner";
+	"Scott Froelich" -> "Andy Terris";
+	"Chris Frost" -> "Neil Forbes";
+	"Mike Fullmer" -> "Kevin Dudgeon";
+	"Mike Fullmer" -> "Alex Janevski";
+	"Mike Fullmer" -> "Kent Furst";
+	"Mike Fullmer" -> "Brian Berman";
+	"Kent Furst" -> "Bryan Inderhees";
+	"Kent Furst" -> "Chris Weygandt";
+	"Christopher Galecki" -> "James Smith";
+	"Christopher Galecki" -> "Alexander Aloi";
+	"Christopher Galecki" -> "William Ewing";
+	"Christopher Galecki" -> "Devyn Spillane";
+	"Evan Gallo" -> "Alex Luck";
+	"Jim Gentry" -> "Randy Thome";
+	"Jim Gentry" -> "Willie Bartok";
+	"Charles Gerner" -> "Steve Olk";
+	"Charles Gerner" -> "Ed Wyzykowski";
+	"Charles Gerner" -> "Alex Parker";
+	"Charles Gerner" -> "Nick Eddy";
+	"Robin Gersabeck" -> "Matt Miller";
+	"Andrew Gerst" -> "Alex Campbell";
+	"Andrew Gerst" -> "Patrick Lathrop";
+	"Paul Gerwe" -> "David Lukens";
+	"Paul Gerwe" -> "Geoff Wedig";
+	"Paul Gerwe" -> "John Cover";
+	"Paul Gerwe" -> "Ben Stern";
+	"Jim Gialamas" -> "Laszlo Ilyes";
+	"Nathan Gill" -> "Donald Endres";
+	"Barry Goldberg" -> "Alex Balbes";
+	"Barry Goldberg" -> "Nikhil Edward";
+	"Barry Goldberg" -> "Devin Hagedorn";
+	"Charlie Goodson" -> "Clint Schmidt";
+	"Dave Gordon" -> "Oscar Lee";
+	"Dave Gordon" -> "Morris Levy";
+	"Jacob Gresh" -> "Frank Singel";
+	"Neil Halmagyi" -> "Hassan Awada";
+	"Curt Harkless" -> "Joe Bonilla";
+	"Jason Harper" -> "Mike Usowicz";
+	"Chris Harley" -> "Greg Cox";
+	"Steve Hartmeyer" -> "Paul Gerwe";
+	"Steve Hartmeyer" -> "Raj Narayan";
+	"Andrew Henderson" -> "Patrick Mulhair"
+	"Dale Herman" -> "Jeff Damasiewicz";
+	"Matt Hire" -> "Devon Parker";
+	"Cory Hojka" -> "Nathan Dombrook";
+	"Cory Hojka" -> "Michael Ashmore";
+	"Tom Horwitz" -> "Dennis Wendling";
+	"Jay Hoying" -> "Kevin O'Toole";
+	"Jay Hoying" -> "Bill Schiffman";
+	"Joe Hrovat" -> "Joe Snyder";
+	"Donald Huckle" -> "Fred Douglas";
+  	"Donald Huckle" -> "Kamron Palmer";
+	"Tony Huron" -> "Kenneth Walther";
+	"John Husemoller" -> "Benjamin Schultz";
+	"John Husemoller" -> "Jim Ogle";
+	"John Husemoller" -> "John Grimley";
+	"Bryan Inderhees" -> "Jeffery Spencer";
+	"Bryan Inderhees" -> "Robert Detwiler";
+	"Alex Janevski" -> "Charlie Goodson";
+	"Gregory Jehan" -> "Tony Waylonis";
+	"Gregory Jehan" -> "Chris Dreher";
+	"Gregory Jehan" -> "Wes Shull";
+	"Ned Johnson" -> "Steve Hartmeyer";
+	"David Kahane" -> "Ken DeYoung";
+	"Rich Kairis" -> "Chris Frost";
+	"Shannon Kalvar" -> "Matt Slotten";
+	"Ron Kaneshiro" -> "Mark Yunker";
+	"Benjamin Kaplan" -> "Christopher Galecki";
+	"Benjamin Kaplan" -> "Mark Syvuk";
+	"Pete Kaufmann" -> "Herb Lichtman";
+	"Pete Kaufmann" -> "Yong Park";
+	"Brent Keith" -> "Matt Smith";
+	"David Kent" -> "Michael Steward";
+	"David Kent" -> "Myles Lewis";
+	"David Kent" -> "Christopher Babecki"
+	"Tod Kenzie" -> "Steve Manchir";
+	"Michael Keresztesy" -> "Mark Keresztesy";
+	"Michael Keresztesy" -> "Soon Kang";
+	"Mark Keresztesy" -> "John Eddy";
+	"Dave Kjeldgaard" -> "Steve Nicol";
+	"Joe Klich" -> "Kendrick Shaw";
+	"Joe Klich" -> "Skylor Williams";
+	"Joe Koehler" -> "Dave Shapiro";
+	"Ken Kosovich" -> "Tom Gorensick";
+	"Ken Kosovich" -> "Rick Tomsick";
+	"Neal Kozlowski" -> "Paul May";
+	"Todd Kramer" -> "Cory Hojka";
+	"Eric Kugler" -> "Chris Weigold";
+	"Eric Kugler" -> "Matt Whelan";
+	"Eric Kugler" -> "Steve Wentzel";
+	"Eric Kugler" -> "Ian Scholdberg";
+	"Jason Kuster" -> "Ryan Miller";
+	"Jason Kuster" -> "Nathan Gill";
+	"Jason Kuster" -> "Rishe Sivagnanam";
+	"Andy Langenderfer" -> "Robin Gersabeck";
+	"Andy Langenderfer" -> "Matt Dria";
+	"Jack LaRue" -> "Ryan Hawtof";
+	"Ben Lawler" -> "Sandy Troiani";
+	"Morris Levy" -> "Dore Shafransky";
+	"Scott Limestoll" -> "Brett Thomas";
+	"Scott Limestoll" -> "Joel Scheuer";
+	"David Lukens" -> "Niuniu Ji";
+	"David Lukens" -> "Jason Freshwater";
+	"David Lukens" -> "Brian Stephens";
+	"Grayden MacLennan" -> "Steve Rash";
+	"Grayden MacLennan" -> "Mikkel Fishman";
+	"Grayden MacLennan" -> "Mike Olenik";
+	"Walt Mahovlich" -> "Doug Clafin";
+	"Walt Mahovlich" -> "Glenn Pierce";
+	"Walt Mahovlich" -> "Jim Strand";
+	"Steve Manchir" -> "Ian McIntire";
+	"Michael Marks" -> "John Shin";
+	"Brian Martin" -> "Michael Marks";
+	"Brian Martin" -> "Allan Zoller";
+	"Craig Marvinney" -> "John Parsons";
+	"Craig Marvinney" -> "Mike McHenry";
+	"Craig Marvinney" -> "Edgar Stehli";
+	"Dave Marvinney" -> "Dave Bond";
+	"Dave Marvinney" -> "Ken Kosovich";
+	"Dave Marvinney" -> "Joe Hrovat";
+	"Paul May" -> "Todd Kramer";
+	"Jim McAward" -> "Rich Drushel";
+	"Marvin McGowan" -> "Art Brace";
+	"Marvin McGowan" -> "Karl Washburn";
+	"Marvin McGowan" -> "Tom Horwitz";
+	"James McGinnity" -> "Alec Frye";
+	"James McGinnity" -> "Jaime Capetillo";
+	"Mike McHenry" -> "Jim Gialamas";
+	"Mike McHenry" -> "Paul Tripi";
+	"Tim McHenry" -> "Con Audeh";
+	"Tim McHenry" -> "Steve Farrington";
+	"Ian McIntire" -> "Eric Kugler";
+	"Ian McIntire" -> "Grayden MacLennan";
+	"Nathan McKinley" -> "Zachary Olivos";
+	"Nathan McKinley" -> "Derek Payne";
+	"Tom Mele" -> "Neal Kozlowski";
+	"Joel Meltzer" -> "Tom Belcher";
+	"Amit Misra" -> "Neeraj Edward";
+	"J.J. Moffitt" -> "Jacob Gresh";
+	"J.J. Moffitt" -> "Raisa Cabrera";
+	"Karthik Mohanarangan" -> "Bryce Downing"
+	"Karthik Mohanarangan" -> "Bennett Sherman";
+	"Karthik Mohanarangan" -> "Jack LaRue";
+	"Julius Moldovanyi" -> "Bob Eyerman";
+	"Julius Moldovanyi" -> "Walt Mahovlich";
+	"Michael Monkiewicz" -> "Jeremy Shively";
+	"Jeffrey Moore" -> "Michael Thomas";
+	"Jeffrey Moore" -> "Brion Finlay";
+	"Jeffrey Moore" -> "Jeff Roberts";
+	"Michael Moorman" -> "Steven Dee";
+	"Dan Myers" -> "John Boyer";
+	"Dan Myers" -> "Daniel Neumann";
+	"Dan Myers" -> "Jason Harper";
+	"Jeremy Na" -> "David Aghassi";
+	"Harmeet Narang" -> "Colin Fahrion";
+	"Harmeet Narang" -> "Joshua Brown";
+	"Raj Narayan" -> "Dave Peascoe";
+	"Raj Narayan" -> "Gregory Jehan";
+	"Raj Narayan" -> "Andy West";
+	"Chase Nemeth" -> "Spencer York";
+	"Daniel Neumann" -> "Mike Pavlik";
+	"Daniel Neumann" -> "Connor Balin";
+	"Joe Nikstenas" -> "Seth Walter";
+	"Michael O'Neil" -> "Eric Carnevale";
+	"Michael O'Neil" -> "Michael Rhoades";
+	"Alexander O'Reilly" -> "Andrew Henderson";
+	"Kevin O'Toole" -> "Curt Harkless";
+	"Kevin O'Toole" -> "Jim Robejsek";
+	"Zachary Olivos" -> "Nathan Hach";
+	"Zachary Olivos" -> "Chris Weddle";
+	"Steve Olk" -> "Tim Sentgeorge";
+	"Steve Olk" -> "Grayson Sieg";
+	"Steve Olk" -> "Steve Andersen";
+	"Mike Opincar" -> "Todd Lenz";
+	"Derek Overstreet" -> "Charles Pairan";
+	"Derek Overstreet" -> "Samuel Rivier";
+	"Derek Overstreet" -> "Chase Nemeth";
+	"Charles Pairan" -> "J.J. Moffitt";
+	"Charles Pairan" -> "Donald Huckle";
+	"Yong Park" -> "Ken Batcher";
+	"Devon Parker" -> "Dave Allen";
+	"John Parsons" -> "Rich Faldowski";
+	"Terry Patterson" -> "Brian Marble";
+	"Mike Pavlik" -> "Matthew Richter";
+	"Mike Pavlik" -> "Fred Davey";
+	"Mike Pavlik" -> "Rob Grueninger";
+	"Scott Pearson" -> "Brian Martin";
+	"Scott Pearson" -> "John McGlaughlin";
+	"Dave Peascoe" -> "Michael Monkiewicz";
+	"Andrew Pentz" -> "Matthew Elmo";
+	"Stan Polcar" -> "Arthur Scott";
+	"Stan Polcar" -> "Dana Zahuranic";
+	"Tao Qin" -> "Andy Langenderfer";
+	"Tao Qin" -> "Jim Stafford";
+	"Steve Rash" -> "Justin Walker";
+	"Steve Rash" -> "Nicholai Salovich";
+	"Mike Reed" -> "Jacob Spendelow";
+	"Mike Reed" -> "Tod Detre";
+	"Robert Reinhofer" -> "Cedric Dilsizian";
+	"Robert Reinhofer" -> "Tom Dohnal";
+	"Aditya Rengaswamy" -> "Karthik Mohanarangan";
+	"Marc Reynolds" -> "AJ Barker";
+	"Seth Rich" -> "Joel Meltzer";
+	"Seth Rich" -> "Jared Bendis";
+	"Seth Rich" -> "Howard Wolf";
+  	"Matthew Richter" -> "Matthew Varley";
+	"Matthew Richter" -> "Aditya Rengaswamy";
+	"Grant Risch" -> "Will Earley";
+	"Martin Risch" -> "Ian Chapman";
+	"Martin Risch" -> "Hunter Yevincy";
+	"Samuel Rivier" -> "Tim Franke";
+	"Jeff Roberts" -> "Chris Williams";
+	"Todd Rogers" -> "Chris Applegate";
+	"Chris Roper" -> "Jeff Shugars";
+	"Ken Ross" -> "Dave Targosky";
+	"Randy Rouda" -> "James Nauer";
+	"Randy Rouda" -> "Eric Meyer";
+	"Randy Rouda" -> "Ned Johnson";
+	"John Rusek" -> "Scott Sparenberg";
+	"Clint Schmidt" -> "Aaron Yoches";
+	"Clint Schmidt" -> "Geoff Shafer";
+	"Ian Scholdberg" -> "Brian Brauchler";
+	"Ben Schroeder" -> "Matt Schwickerath";
+	"Ben Schroeder" -> "Scott Schwickerath";
+	"Benjamin Schultz" -> "Dan Alt";
+	"Matt Schwickerath" -> "Scott Limestoll";
+	"Scott Schwickerath" -> "Marcel Proulx";
+	"Andrew Schwirian" -> "Grant Risch";
+	"Andrew Schwirian" -> "Randall Duke";
+	"Dore Shafransky" -> "Barney Olson";
+	"Dore Shafransky" -> "Rick Targosky";
+	"Dore Shafransky" -> "Dale Pulver";
+	"Dave Shapiro" -> "Mike Millstein";
+	"Dave Shapiro" -> "Nick Skelin";
+	"Jacob Shapiro" -> "Tony Huron";
+	"Jacob Shapiro" -> "Andrew Gilbert";
+	"Jacob Shapiro" -> "Benjamin VanArtsdalen";
+	"Justin Shepard" -> "Nathan Sterret";
+	"Stan Shmia" -> "John Whiting";
+	"Ben Sigg" -> "Eric Friesen";
+	"Frank Singel" -> "Oscar Gresh";
+	"Frank Singel" -> "Jonathan Shabtai";
+	"Nick Skelin" -> "Dave Kirsch";
+	"Nick Skelin" -> "Paul Franceus";
+	"Nick Skelin" -> "Bob Snyder";
+	"Alex Smith" -> "Alex Imhoff";
+	"Alex Smith" -> "Zach Stevens";
+	"Matt Smith" -> "Adam Shiel";
+	"Kosma Sniezko" -> "James Cash";
+	"Kosma Sniezko" -> "Eric Young";
+	"Kosma Sniezko" -> "Jon Chang";
+	"Daniel Snow" -> "Daniel Robbins";
+	"Bob Snyder" -> "Craig Austin";
+	"Bob Snyder" -> "Chris Kovski";
+	"Scott Sparenberg" -> "Terry Patterson";
+	"Devyn Spillane" -> "Matthew Bentley";
+	"Devyn Spillane" -> "Zack Williams";
+	"Jim Stafford" -> "Amit Misra";
+	"Jim Stafford" -> "C Y Wo";
+	"Ched Stanisic" -> "Jim McAward";
+	"Edgar Stehli" -> "Rob Hurd";
+	"Edgar Stehli" -> "Leon Kofman";
+	"John Stehli" -> "Doug Cullin";
+	"John Stehli" -> "Norm Lindner";
+	"Michael Steward" -> "Devon Jones"
+	"Zach Stevens" -> "Chris J. Williams";
+	"Jim Strand" -> "John Stehli";
+	"Noah Swartz" -> "Andrew Jakes";
+	"Joshua Tang" -> "Geal Sarrett";
+	"Dave Targosky" -> "Peter Szigeti";
+	"Andy Terris" -> "Seth Rich";
+	"Rick Tomsick" -> "Dale Herman";
+	"Brad Triden" -> "Matthew Finlay";
+	"Paul Tripi" -> "Mark Kikta";
+	"Sandy Troiani" -> "Andrew Gerst";
+	"Peyton Turner" -> "Andrew Leppo";
+	"Mike Usowicz" -> "Chris Tanner";
+	"Matthew Varley" -> "Andrew Pentz";
+	"Matthew Varley" -> "Andrew Zolyak";
+	"Jim Visconti" -> "John Schienmann";
+	"Jim Visconti" -> "Bill Yale";
+	"Jim Visconti" -> "Tim Dunagan";
+	"Jim Visconti" -> "Alex Kranz";
+	"Jim Visconti" -> "Michael Keresztesy";
+	"Abbott Veldhuizen" -> "Jeremy Na";
+	"Abbott Veldhuizen" -> "Michael Bending";
+	"Abbott Veldhuizen" -> "Andrew Becker";
+	"Abbott Veldhuizen" -> "Austin Hacker";
+	"Robert Wake" -> "Henry Finkle";
+	"Vic Walach" -> "Tom Kuzmarski";
+	"Vic Walach" -> "Dave Pheanis";
+	"Brian Walden" -> "Tom Mele";
+	"Justin Walker" -> "Quinn Daniels";
+	"Seth Walter" -> "Troy Babcock";
+	"Seth Walter" -> "Ben Winter";
+	"Seth Walter" -> "Steve Clute";
+	"Kenneth Walther" -> "Abbott Veldhuizen";
+	"Kenneth Walther" -> "Abraham Burkholder";
+	"Kenneth Walther" -> "Barry Goldberg";
+	"Andy Wartluft" -> "Louis Gluchov";
+	"Tony Waylonis" -> "Ethan Field";
+	"Matt Whelan" -> "Graham Unger";
+	"Matt Whelan" -> "Michael St. Clair";
+	"Robert Wiesler" -> "Mason Zhu";
+	"Scott Weintraub" -> "Shannon Kalvar";
+	"Scott Weintraub" -> "Stan Shmia";
+	"Scott Weintraub" -> "Mike Pullin";
+	"Dennis Wendling" -> "Scott Weintraub";
+	"Dennis Wendling" -> "Scott Froelich";
+	"Steve Wentzel" -> "Alex Smith";
+	"Andy West" -> "Nick Brienza";
+	"Andy West" -> "Justin Shepard";
+	"Paul Williams" -> "Dave Reid";
+	"Paul Williams" -> "Dave Kjeldgaard";
+	"Paul Williams" -> "Dave Marvinney";
+	"Skylor Williams" -> "Jeremy Friesen";
+	"Zack Williams" -> "David Lance";
+	"Zack Williams" -> "Alex Tryjankowski"
+	"Andrew Winstead" -> "Ken Zhao";
+	"Andrew Winstead" -> "Adam Brown";
+	"Andrew Winstead" -> "Josh Young";
+	"Adam Wisniewski" -> "Josh Allen";
+	"Martin Witczak" -> "Jason Dieterle";
+	"Geoff Wedig" -> "David Kahane";
+	"Geoff Wedig" -> "Joe Klich";
+	"Ben Winter" -> "Anthony Bucci";
+	"Howard Wolf" -> "Mike Witczak";
+	"J.J. Wurz" -> "Brent Keith";
+	"J.J. Wurz" -> "Andy Wartluft";
+	"J.J. Wurz" -> "Mike Ganahl";
+	"J.J. Wurz" -> "Brian Doerk";
+	"Vahagn Yeranossian" -> "James Fitzpatrick";
+	"Vahagn Yeranossian" -> "Daniel Snow";
+	"Hunter Yevincy" -> "Patrick Green";
+	"Hunter Yevincy" -> "John Peterson";
+	"Hunter Yevincy" -> "John Turner";
+	"Spencer York" -> "Jacob Shapiro"
+	"Spencer York" -> "Robert Wiesler"
+	"Spencer York" -> "Nathan McKinley"
+	"Mark Yunker" -> "Joe Koehler";
+	"Ray Zackowski" -> "Paul Zackowski";
+	"John Zeitler" -> "Tim McHenry";
+	"Allan Zoller" -> "Bruce Delaney";
+}
