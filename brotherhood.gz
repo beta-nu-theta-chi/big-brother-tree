@@ -129,7 +129,7 @@ digraph brotherhood {
 	{ rank = same; "Spring 2016"; "Chris Brace"; "William Ford"; "Benjamin Garner-Prouty"; "Pranav Hegde"; "James Hesse"; "Jorge Prendes"; "Kurt Schafer"; "Jeremy Zalles";}
 	{ rank = same; "Fall 2016"; "Jared Cassarly"; "Jonathan Henley"; "Jackson Kishbaugh-Maish"; "Aaron Lee"; "Tommy Lu"; "Brian Pappas";}
 	{ rank = same; "Spring 2017"; "Bronson Hausman"; "David Hughes"; "Jack Mecca"; "Hayden Nelson"; "Shota Nemoto"; "Andrew Su";}
-	{ rank = same; "Fall 2017"; "James Covello"; "Garrett Dore"; "Sam Ehrenstein"; "Tim Fry"; "Will Oltjen"; "Pheobe Peters"; "Ben Smith"; "Scott Trask"; "Jarrett Wilson"; "Matt York";}
+	{ rank = same; "Fall 2017"; "James Covello"; "Garrett Dore"; "Sam Ehrenstein"; "Tim Fry"; "Will Oltjen"; "Phoebe Peters"; "Ben Smith"; "Scott Trask"; "Jarrett Wilson"; "Matt York";}
 	{ rank = same; "Spring 2018"; "Chris Council"; "Daniel Grigsby"; "Rishi Solanki"; "Will Turner";}
 	{ rank = same; "Fall 2018"; "Ben Basel"; "Alvin Kim"; "Adam Kuhn"; "Connor Nee"; "Joseph Sanchez"; "Brice Smith"; "Jakob Zagone";}
 	{ rank = same; "Spring 2019"; "Joseph Broady"; "Joel Hauerwas"; "Elliot Klein"; "Okey Ohanaka"; "Andrei Tiu"; "Arland Zatania Lojo";}
@@ -499,8 +499,8 @@ digraph brotherhood {
 	"Scott Pearson" -> "John McGlaughlin";
 	"Dave Peascoe" -> "Michael Monkiewicz";
 	"Andrew Pentz" -> "Matthew Elmo";
-	"Pheobe Peters" -> "Jakob Zagone";
-	"Pheobe Peters" -> "Elliot Klein";
+	"Phoebe Peters" -> "Jakob Zagone";
+	"Phoebe Peters" -> "Elliot Klein";
 	"Joseph Picard" -> "Adam Kuhn";
 	"Joseph Picard" -> "Hayden Nelson";
 	"Joseph Picard" -> "Jarrett Wilson";
@@ -599,7 +599,7 @@ digraph brotherhood {
 	"Brad Triden" -> "Matthew Finlay";
 	"Paul Tripi" -> "Mark Kikta";
 	"Sandy Troiani" -> "Andrew Gerst";
-	"Alex Tryjankowski" -> "Pheobe Peters";
+	"Alex Tryjankowski" -> "Phoebe Peters";
 	"Peyton Turner" -> "Andrew Leppo";
 	"Peyton Turner" -> "Jackson Kishbaugh-Maish";
 	"Mike Usowicz" -> "Chris Tanner";
