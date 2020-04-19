@@ -14,7 +14,7 @@ digraph brotherhood {
 		node [shape=plaintext, fontname="Nimbus Sans 1", fontsize=12];
 		edge [style=invis];
 		//Put pledge classes here "Pledge Class 1" -> "Pledge Class 2"
-		"Fall 1964" -> "Spring 1965" -> "Fall 1965" -> "Spring 1966" -> "Fall 1966" -> "Spring 1967" -> "Fall 1967" -> "Spring 1968" -> "Fall 1968" -> "Spring 1969" -> "Fall 1969" -> "Spring 1970" -> "Fall 1970" -> "Spring 1971" -> "Fall 1971" -> "Spring 1972" -> "Fall 1972" -> "Spring 1973" -> "Fall 1973" -> "Spring 1974" -> "Fall 1974" -> "Spring 1975" -> "Fall 1975" -> "Spring 1976" -> "Fall 1976" -> "Spring 1977" -> "Fall 1977" -> "Spring 1978" -> "Fall 1978" -> "Spring 1979" -> "Fall 1979" -> "Spring 1980" -> "Fall 1980" -> "Spring 1981" -> "Fall 1981" -> "Spring 1982" -> "Fall 1982" -> "Spring 1983" -> "Fall 1983" -> "Spring 1984" -> "Fall 1984" -> "Spring 1985" -> "Fall 1985" -> "Spring 1986" -> "Fall 1986" -> "Spring 1987" -> "Fall 1987" -> "Spring 1988" -> "Fall 1988" -> "Spring 1989" -> "Fall 1989" -> "Spring 1990" -> "Fall 1990" -> "Spring 1991" -> "Fall 1991" -> "Spring 1992" -> "Fall 1992" -> "Spring 1993" -> "Fall 1993" -> "Spring 1994" -> "Fall 1994" -> "Spring 1995" -> "Fall 1995" -> "Spring 1996" -> "Fall 1996" -> "Spring 1997" -> "Fall 1997" -> "Spring 1998" -> "Fall 1998" -> "Spring 1999" -> "Fall 1999" -> "Spring 2000" -> "Fall 2000" -> "Spring 2001" -> "Fall 2001" -> "Spring 2002" -> "Fall 2002" -> "Spring 2003" -> "Fall 2003" -> "Spring 2004" -> "Fall 2004" -> "Spring 2005" -> "Fall 2005" -> "Spring 2006" -> "Fall 2006" -> "Spring 2007" -> "Fall 2007" -> "Spring 2008" -> "Fall 2008" -> "Spring 2009" -> "Fall 2009" -> "Spring 2010" -> "Fall 2010" -> "Spring 2011" -> "Fall 2011" -> "Spring 2012" -> "Fall 2012" -> "Spring 2013" -> "Fall 2013" -> "Spring 2014" -> "Fall 2014" -> "Spring 2015" -> "Fall 2015" -> "Spring 2016" -> "Fall 2016" -> "Spring 2017" -> "Fall 2017" -> "Spring 2018" -> "Fall 2018" -> "Spring 2019" -> "Fall 2019";
+		"Fall 1964" -> "Spring 1965" -> "Fall 1965" -> "Spring 1966" -> "Fall 1966" -> "Spring 1967" -> "Fall 1967" -> "Spring 1968" -> "Fall 1968" -> "Spring 1969" -> "Fall 1969" -> "Spring 1970" -> "Fall 1970" -> "Spring 1971" -> "Fall 1971" -> "Spring 1972" -> "Fall 1972" -> "Spring 1973" -> "Fall 1973" -> "Spring 1974" -> "Fall 1974" -> "Spring 1975" -> "Fall 1975" -> "Spring 1976" -> "Fall 1976" -> "Spring 1977" -> "Fall 1977" -> "Spring 1978" -> "Fall 1978" -> "Spring 1979" -> "Fall 1979" -> "Spring 1980" -> "Fall 1980" -> "Spring 1981" -> "Fall 1981" -> "Spring 1982" -> "Fall 1982" -> "Spring 1983" -> "Fall 1983" -> "Spring 1984" -> "Fall 1984" -> "Spring 1985" -> "Fall 1985" -> "Spring 1986" -> "Fall 1986" -> "Spring 1987" -> "Fall 1987" -> "Spring 1988" -> "Fall 1988" -> "Spring 1989" -> "Fall 1989" -> "Spring 1990" -> "Fall 1990" -> "Spring 1991" -> "Fall 1991" -> "Spring 1992" -> "Fall 1992" -> "Spring 1993" -> "Fall 1993" -> "Spring 1994" -> "Fall 1994" -> "Spring 1995" -> "Fall 1995" -> "Spring 1996" -> "Fall 1996" -> "Spring 1997" -> "Fall 1997" -> "Spring 1998" -> "Fall 1998" -> "Spring 1999" -> "Fall 1999" -> "Spring 2000" -> "Fall 2000" -> "Spring 2001" -> "Fall 2001" -> "Spring 2002" -> "Fall 2002" -> "Spring 2003" -> "Fall 2003" -> "Spring 2004" -> "Fall 2004" -> "Spring 2005" -> "Fall 2005" -> "Spring 2006" -> "Fall 2006" -> "Spring 2007" -> "Fall 2007" -> "Spring 2008" -> "Fall 2008" -> "Spring 2009" -> "Fall 2009" -> "Spring 2010" -> "Fall 2010" -> "Spring 2011" -> "Fall 2011" -> "Spring 2012" -> "Fall 2012" -> "Spring 2013" -> "Fall 2013" -> "Spring 2014" -> "Fall 2014" -> "Spring 2015" -> "Fall 2015" -> "Spring 2016" -> "Fall 2016" -> "Spring 2017" -> "Fall 2017" -> "Spring 2018" -> "Fall 2018" -> "Spring 2019" -> "Fall 2019" -> "Spring 2020";
 	}
 
 	//Section 2
@@ -129,11 +129,12 @@ digraph brotherhood {
 	{ rank = same; "Spring 2016"; "Chris Brace"; "William Ford"; "Benjamin Garner-Prouty"; "Pranav Hegde"; "James Hesse"; "Jorge Prendes"; "Kurt Schafer"; "Jeremy Zalles";}
 	{ rank = same; "Fall 2016"; "Jared Cassarly"; "Jonathan Henley"; "Jackson Kishbaugh-Maish"; "Aaron Lee"; "Tommy Lu"; "Brian Pappas";}
 	{ rank = same; "Spring 2017"; "Bronson Hausman"; "David Hughes"; "Jack Mecca"; "Hayden Nelson"; "Shota Nemoto"; "Andrew Su";}
-	{ rank = same; "Fall 2017"; "James Covello"; "Garrett Dore"; "Sam Ehrenstein"; "Tim Fry"; "Will Oltjen"; "Phoebe Peters"; "Ben Smith"; "Scott Trask"; "Jarrett Wilson"; "Matt York";}
+	{ rank = same; "Fall 2017"; "James Covello"; "Sam Ehrenstein"; "Tim Fry"; "Will Oltjen"; "Phoebe Peters"; "Ben Smith"; "Scott Trask"; "Jarrett Wilson"; "Matt York";}
 	{ rank = same; "Spring 2018"; "Chris Council"; "Daniel Grigsby"; "Rishi Solanki"; "Will Turner";}
 	{ rank = same; "Fall 2018"; "Ben Basel"; "Alvin Kim"; "Adam Kuhn"; "Connor Nee"; "Joseph Sanchez"; "Brice Smith"; "Jakob Zagone";}
 	{ rank = same; "Spring 2019"; "Joseph Broady"; "Joel Hauerwas"; "Elliot Klein"; "Okey Ohanaka"; "Andrei Tiu"; "Arland Zatania Lojo";}
-	{ rank = same; "Fall 2019"; "Noah Bliss"; "George Caddell"; "Jerry Chen"; "Walter Cox"; "Michael Dellaripa"; "Madhav Goel"; "Erik Hynes"; "Daniel Katz"; "Bradley Kolar"; "Junlong Kwan"; "Daniel Leskov"; "Reilly McDowell";}
+	{ rank = same; "Fall 2019"; "Noah Bliss"; "George Caddell"; "Jerry Chen"; "Walker Cox"; "Michael Dellaripa"; "Erik Hynes"; "Daniel Katz"; "Bradley Kolar"; "Junlong Kwan"; "Daniel Leskov"; "Reilly McDowell";}
+	{ rank = same; "Spring 2020"; "Liam Brosie"; "Michael Christian"; "Sebastian Lubert"; "Teja Paladugu"; "Ethan Wood";}
 
 	//Section 3
 	/* Big brother -> Little brother.  Sorted alphabetically by big brother last name. */
@@ -176,7 +177,7 @@ digraph brotherhood {
 	"John Boyer" -> "Dan Okienko";
 	"Ted Brenneman" -> "Greg Beer";
 	"Ted Brenneman" -> "Mark Bertison";
-	"Joseph Broady" -> "Walter Cox";
+	"Joseph Broady" -> "Walker Cox";
 	"Joshua Brown" -> "Mike Fullmer";
 	"Joshua Brown" -> "David Eshelman";
 	"Joshua Brown" -> "Zac Crofford";
@@ -192,6 +193,7 @@ digraph brotherhood {
 	"Michael Caughey" -> "Ben Lawler";
 	"Jon Chang" -> "Paul Taylor";
 	"Jon Chang" -> "Andrew Schwirian";
+	"Jerry Chen" -> "Michael Christian";
 	"John Chunko" -> "Martin Wojtowicz"
 	"John Chunko" -> "Dan Khanna";
 	"Doug Clafin" -> "Stan Toncich";
@@ -235,7 +237,6 @@ digraph brotherhood {
 	"Brian Doerk" -> "Brad Triden"
 	"Brian Doerk" -> "Harry Meier";
 	"Nathan Dombrook" -> "Tod Kenzie";
-	"Garrett Dore" -> "Joseph Broady";
 	"Bryce Downing" -> "Bronson Hausman";
 	"Bryce Downing" -> "Rishi Solanki";
 	"Bryce Downing" -> "Jeremy Zalles";
@@ -323,7 +324,6 @@ digraph brotherhood {
 	"Chris Harley" -> "Greg Cox";
 	"Steve Hartmeyer" -> "Paul Gerwe";
 	"Steve Hartmeyer" -> "Raj Narayan";
-	"Joel Hauerwas" -> "Madhav Goel";
 	"Bronson Hausman" -> "Sam Ehrenstein";
 	"Ryan Hawtof" -> "William Ford";
 	"Pranav Hegde" -> "Ben Basel"
@@ -374,6 +374,7 @@ digraph brotherhood {
 	"Joe Klich" -> "Kendrick Shaw";
 	"Joe Klich" -> "Skylor Williams";
 	"Joe Koehler" -> "Dave Shapiro";
+	"Bradley Kolar" -> "Ethan Wood";
 	"Ken Kosovich" -> "Tom Gorensick";
 	"Ken Kosovich" -> "Rick Tomsick";
 	"Neal Kozlowski" -> "Paul May";
@@ -422,6 +423,7 @@ digraph brotherhood {
 	"Dave Marvinney" -> "Joe Hrovat";
 	"Paul May" -> "Todd Kramer";
 	"Jim McAward" -> "Rich Drushel";
+	"Reilly McDowell" -> "Sebastian Lubert";
 	"Marvin McGowan" -> "Art Brace";
 	"Marvin McGowan" -> "Karl Washburn";
 	"Marvin McGowan" -> "Tom Horwitz";
@@ -487,7 +489,6 @@ digraph brotherhood {
 	"Charles Pairan" -> "JJ Moffitt";
 	"Charles Pairan" -> "Donald Huckle";
 	"Brian Pappas" -> "Matt York";
-	"Robert Park" -> "Garrett Dore";
 	"Yong Park" -> "Ken Batcher";
 	"Devon Parker" -> "Dave Allen";
 	"John Parsons" -> "Rich Faldowski";
@@ -499,8 +500,9 @@ digraph brotherhood {
 	"Scott Pearson" -> "John McGlaughlin";
 	"Dave Peascoe" -> "Michael Monkiewicz";
 	"Andrew Pentz" -> "Matthew Elmo";
-	"Phoebe Peters" -> "Jakob Zagone";
+	"Phoebe Peters" -> "Liam Brosie";
 	"Phoebe Peters" -> "Elliot Klein";
+	"Phoebe Peters" -> "Jakob Zagone";
 	"Joseph Picard" -> "Adam Kuhn";
 	"Joseph Picard" -> "Hayden Nelson";
 	"Joseph Picard" -> "Jarrett Wilson";
@@ -602,6 +604,7 @@ digraph brotherhood {
 	"Alex Tryjankowski" -> "Phoebe Peters";
 	"Peyton Turner" -> "Andrew Leppo";
 	"Peyton Turner" -> "Jackson Kishbaugh-Maish";
+	"Will Turner" -> "Teja Paladugu";
 	"Mike Usowicz" -> "Chris Tanner";
 	"Matthew Varley" -> "Andrew Pentz";
 	"Matthew Varley" -> "Andrew Zolyak";
