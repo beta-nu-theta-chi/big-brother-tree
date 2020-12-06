@@ -37,3 +37,8 @@ jobs:
       # Create the SVG output
       - name: SVG
         run: dot -Tsvg brotherhood.gz > dist/brotherhood.svg
+        
+      - uses: actions/upload-artifact@v2
+        with:
+          name: Generated Trees
+          path: /dist
