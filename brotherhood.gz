@@ -14,7 +14,7 @@ digraph brotherhood {
 		node [shape=plaintext, fontname="Nimbus Sans 1", fontsize=12];
 		edge [style=invis];
 		//Put pledge classes here "Pledge Class 1" -> "Pledge Class 2"
-		"Fall 1964" -> "Spring 1965" -> "Fall 1965" -> "Spring 1966" -> "Fall 1966" -> "Spring 1967" -> "Fall 1967" -> "Spring 1968" -> "Fall 1968" -> "Spring 1969" -> "Fall 1969" -> "Spring 1970" -> "Fall 1970" -> "Spring 1971" -> "Fall 1971" -> "Spring 1972" -> "Fall 1972" -> "Spring 1973" -> "Fall 1973" -> "Spring 1974" -> "Fall 1974" -> "Spring 1975" -> "Fall 1975" -> "Spring 1976" -> "Fall 1976" -> "Spring 1977" -> "Fall 1977" -> "Spring 1978" -> "Fall 1978" -> "Spring 1979" -> "Fall 1979" -> "Spring 1980" -> "Fall 1980" -> "Spring 1981" -> "Fall 1981" -> "Spring 1982" -> "Fall 1982" -> "Spring 1983" -> "Fall 1983" -> "Spring 1984" -> "Fall 1984" -> "Spring 1985" -> "Fall 1985" -> "Spring 1986" -> "Fall 1986" -> "Spring 1987" -> "Fall 1987" -> "Spring 1988" -> "Fall 1988" -> "Spring 1989" -> "Fall 1989" -> "Spring 1990" -> "Fall 1990" -> "Spring 1991" -> "Fall 1991" -> "Spring 1992" -> "Fall 1992" -> "Spring 1993" -> "Fall 1993" -> "Spring 1994" -> "Fall 1994" -> "Spring 1995" -> "Fall 1995" -> "Spring 1996" -> "Fall 1996" -> "Spring 1997" -> "Fall 1997" -> "Spring 1998" -> "Fall 1998" -> "Spring 1999" -> "Fall 1999" -> "Spring 2000" -> "Fall 2000" -> "Spring 2001" -> "Fall 2001" -> "Spring 2002" -> "Fall 2002" -> "Spring 2003" -> "Fall 2003" -> "Spring 2004" -> "Fall 2004" -> "Spring 2005" -> "Fall 2005" -> "Spring 2006" -> "Fall 2006" -> "Spring 2007" -> "Fall 2007" -> "Spring 2008" -> "Fall 2008" -> "Spring 2009" -> "Fall 2009" -> "Spring 2010" -> "Fall 2010" -> "Spring 2011" -> "Fall 2011" -> "Spring 2012" -> "Fall 2012" -> "Spring 2013" -> "Fall 2013" -> "Spring 2014" -> "Fall 2014" -> "Spring 2015" -> "Fall 2015" -> "Spring 2016" -> "Fall 2016" -> "Spring 2017" -> "Fall 2017" -> "Spring 2018" -> "Fall 2018" -> "Spring 2019" -> "Fall 2019" -> "Spring 2020";
+		"Fall 1964" -> "Spring 1965" -> "Fall 1965" -> "Spring 1966" -> "Fall 1966" -> "Spring 1967" -> "Fall 1967" -> "Spring 1968" -> "Fall 1968" -> "Spring 1969" -> "Fall 1969" -> "Spring 1970" -> "Fall 1970" -> "Spring 1971" -> "Fall 1971" -> "Spring 1972" -> "Fall 1972" -> "Spring 1973" -> "Fall 1973" -> "Spring 1974" -> "Fall 1974" -> "Spring 1975" -> "Fall 1975" -> "Spring 1976" -> "Fall 1976" -> "Spring 1977" -> "Fall 1977" -> "Spring 1978" -> "Fall 1978" -> "Spring 1979" -> "Fall 1979" -> "Spring 1980" -> "Fall 1980" -> "Spring 1981" -> "Fall 1981" -> "Spring 1982" -> "Fall 1982" -> "Spring 1983" -> "Fall 1983" -> "Spring 1984" -> "Fall 1984" -> "Spring 1985" -> "Fall 1985" -> "Spring 1986" -> "Fall 1986" -> "Spring 1987" -> "Fall 1987" -> "Spring 1988" -> "Fall 1988" -> "Spring 1989" -> "Fall 1989" -> "Spring 1990" -> "Fall 1990" -> "Spring 1991" -> "Fall 1991" -> "Spring 1992" -> "Fall 1992" -> "Spring 1993" -> "Fall 1993" -> "Spring 1994" -> "Fall 1994" -> "Spring 1995" -> "Fall 1995" -> "Spring 1996" -> "Fall 1996" -> "Spring 1997" -> "Fall 1997" -> "Spring 1998" -> "Fall 1998" -> "Spring 1999" -> "Fall 1999" -> "Spring 2000" -> "Fall 2000" -> "Spring 2001" -> "Fall 2001" -> "Spring 2002" -> "Fall 2002" -> "Spring 2003" -> "Fall 2003" -> "Spring 2004" -> "Fall 2004" -> "Spring 2005" -> "Fall 2005" -> "Spring 2006" -> "Fall 2006" -> "Spring 2007" -> "Fall 2007" -> "Spring 2008" -> "Fall 2008" -> "Spring 2009" -> "Fall 2009" -> "Spring 2010" -> "Fall 2010" -> "Spring 2011" -> "Fall 2011" -> "Spring 2012" -> "Fall 2012" -> "Spring 2013" -> "Fall 2013" -> "Spring 2014" -> "Fall 2014" -> "Spring 2015" -> "Fall 2015" -> "Spring 2016" -> "Fall 2016" -> "Spring 2017" -> "Fall 2017" -> "Spring 2018" -> "Fall 2018" -> "Spring 2019" -> "Fall 2019" -> "Spring 2020" -> "Fall 2020";
 	}
 
 	//Section 2
@@ -135,6 +135,7 @@ digraph brotherhood {
 	{ rank = same; "Spring 2019"; "Joseph Broady"; "Joel Hauerwas"; "Elliot Klein"; "Okey Ohanaka"; "Andrei Tiu"; "Arland Zatania Lojo";}
 	{ rank = same; "Fall 2019"; "Noah Bliss"; "George Caddell"; "Jerry Chen"; "Walker Cox"; "Michael Dellaripa"; "Erik Hynes"; "Daniel Katz"; "Bradley Kolar"; "Junlong Kwan"; "Daniel Leskov"; "Reilly McDowell";}
 	{ rank = same; "Spring 2020"; "Liam Brosie"; "Michael Christian"; "Sebastian Lubert"; "Teja Paladugu"; "Ethan Wood";}
+	{ rank = same; "Fall 2020"; "Josh Meyer"; "Aaron Underwood"; "Param Mohapatra"; "Nick Ott"; }
 
 	//Section 3
 	/* Big brother -> Little brother.  Sorted alphabetically by big brother last name. */
@@ -162,11 +163,11 @@ digraph brotherhood {
 	"Willie Bartok" -> "Ken Ross";
 	"Willie Bartok" -> "Tim Wilt";
 	"Willie Bartok" -> "Chris DeHaas";
-	"Mark Bertison" -> "Craig Marvinney";
-	"Mark Bertison" -> "John Zeitler";
 	"Michael Bending" -> "Alexander O'Reilly";
 	"Michael Bending" -> "Michael Anderson";
 	"Michael Bending" -> "John Elmo";
+	"Mark Bertison" -> "Craig Marvinney";
+	"Mark Bertison" -> "John Zeitler";
 	"Larry Bisset" -> "John Rusek";
 	"Dave Bond" -> "Marvin McGowan";
 	"Dave Bond" -> "Brian Walden";
@@ -320,8 +321,8 @@ digraph brotherhood {
 	"Jacob Gresh" -> "Frank Singel";
 	"Neil Halmagyi" -> "Hassan Awada";
 	"Curt Harkless" -> "Joe Bonilla";
-	"Jason Harper" -> "Mike Usowicz";
 	"Chris Harley" -> "Greg Cox";
+	"Jason Harper" -> "Mike Usowicz";
 	"Steve Hartmeyer" -> "Paul Gerwe";
 	"Steve Hartmeyer" -> "Raj Narayan";
 	"Bronson Hausman" -> "Sam Ehrenstein";
@@ -365,16 +366,17 @@ digraph brotherhood {
 	"David Kent" -> "Myles Lewis";
 	"David Kent" -> "Christopher Babecki"
 	"Tod Kenzie" -> "Steve Manchir";
+	"Mark Keresztesy" -> "John Eddy";
 	"Michael Keresztesy" -> "Mark Keresztesy";
 	"Michael Keresztesy" -> "Soon Kang";
-	"Mark Keresztesy" -> "John Eddy";
 	"Alvin Kim" -> "Daniel Katz";
-	"Dave Kjeldgaard" -> "Steve Nicol";
 	"Jackson Kishbaugh-Maish" -> "Tim Fry";
+	"Dave Kjeldgaard" -> "Steve Nicol";
 	"Joe Klich" -> "Kendrick Shaw";
 	"Joe Klich" -> "Skylor Williams";
 	"Joe Koehler" -> "Dave Shapiro";
 	"Bradley Kolar" -> "Ethan Wood";
+	"Bradley Kolar" -> "Aaron Underwood";
 	"Ken Kosovich" -> "Tom Gorensick";
 	"Ken Kosovich" -> "Rick Tomsick";
 	"Neal Kozlowski" -> "Paul May";
@@ -424,12 +426,12 @@ digraph brotherhood {
 	"Paul May" -> "Todd Kramer";
 	"Jim McAward" -> "Rich Drushel";
 	"Reilly McDowell" -> "Sebastian Lubert";
-	"Marvin McGowan" -> "Art Brace";
-	"Marvin McGowan" -> "Karl Washburn";
-	"Marvin McGowan" -> "Tom Horwitz";
 	"James McGinnity" -> "Jaime Capetillo";
 	"James McGinnity" -> "Alec Frye";
 	"James McGinnity" -> "Brett Johnson";
+	"Marvin McGowan" -> "Art Brace";
+	"Marvin McGowan" -> "Karl Washburn";
+	"Marvin McGowan" -> "Tom Horwitz";
 	"Mike McHenry" -> "Jim Gialamas";
 	"Mike McHenry" -> "Paul Tripi";
 	"Tim McHenry" -> "Con Audeh";
@@ -464,10 +466,10 @@ digraph brotherhood {
 	"Raj Narayan" -> "Gregory Jehan";
 	"Raj Narayan" -> "Andy West";
 	"Connor Nee" -> "Bradley Kolar";
+	"Hayden Nelson" -> "Will Oltjen";
 	"Chase Nemeth" -> "Spencer York";
 	"Shota Nemoto" -> "Okey Ohanaka";
 	"Shota Nemoto" -> "Junlong Kwan";
-	"Hayden Nelson" -> "Will Oltjen";
 	"Daniel Neumann" -> "Mike Pavlik";
 	"Daniel Neumann" -> "Connor Balin";
 	"Joe Nikstenas" -> "Seth Walter";
@@ -567,6 +569,7 @@ digraph brotherhood {
 	"Alex Smith" -> "Zach Stevens";
 	"Ben Smith" -> "Andrei Tiu";
 	"Ben Smith" -> "Noah Bliss";
+	"Ben Smith" -> "Param Mohapatra";
 	"Matt Smith" -> "Adam Shiel";
 	"Kosma Sniezko" -> "James Cash";
 	"Kosma Sniezko" -> "Eric Young";
@@ -584,8 +587,8 @@ digraph brotherhood {
 	"Edgar Stehli" -> "Leon Kofman";
 	"John Stehli" -> "Doug Cullin";
 	"John Stehli" -> "Norm Lindner";
-	"Michael Steward" -> "Devon Jones"
 	"Zach Stevens" -> "Chris J. Williams";
+	"Michael Steward" -> "Devon Jones"
 	"Jim Strand" -> "John Stehli";
 	"Noah Swartz" -> "Andrew Jakes";
 	"Joshua Tang" -> "Geal Sarrett";
@@ -593,6 +596,7 @@ digraph brotherhood {
 	"Dave Targosky" -> "Peter Szigeti";
 	"Andy Terris" -> "Seth Rich";
 	"Andrei Tiu" -> "Jerry Chen";
+	"Andrei Tiu" -> "Nick Ott";
 	"Rick Tomsick" -> "Dale Herman";
 	"Scott Trask" -> "Chris Council";
 	"Scott Trask" -> "Connor Nee";
@@ -608,15 +612,15 @@ digraph brotherhood {
 	"Mike Usowicz" -> "Chris Tanner";
 	"Matthew Varley" -> "Andrew Pentz";
 	"Matthew Varley" -> "Andrew Zolyak";
+	"Abbott Veldhuizen" -> "Jeremy Na";
+	"Abbott Veldhuizen" -> "Michael Bending";
+	"Abbott Veldhuizen" -> "Andrew Becker";
+	"Abbott Veldhuizen" -> "Austin Hacker";
 	"Jim Visconti" -> "John Schienmann";
 	"Jim Visconti" -> "Bill Yale";
 	"Jim Visconti" -> "Tim Dunagan";
 	"Jim Visconti" -> "Alex Kranz";
 	"Jim Visconti" -> "Michael Keresztesy";
-	"Abbott Veldhuizen" -> "Jeremy Na";
-	"Abbott Veldhuizen" -> "Michael Bending";
-	"Abbott Veldhuizen" -> "Andrew Becker";
-	"Abbott Veldhuizen" -> "Austin Hacker";
 	"Robert Wake" -> "Henry Finkle";
 	"Vic Walach" -> "Tom Kuzmarski";
 	"Vic Walach" -> "Dave Pheanis";
@@ -630,9 +634,8 @@ digraph brotherhood {
 	"Kenneth Walther" -> "Barry Goldberg";
 	"Andy Wartluft" -> "Louis Gluchov";
 	"Tony Waylonis" -> "Ethan Field";
-	"Matt Whelan" -> "Graham Unger";
-	"Matt Whelan" -> "Michael St. Clair";
-	"Robert Wiesler" -> "Mason Zhu";
+	"Geoff Wedig" -> "David Kahane";
+	"Geoff Wedig" -> "Joe Klich";
 	"Scott Weintraub" -> "Shannon Kalvar";
 	"Scott Weintraub" -> "Stan Shmia";
 	"Scott Weintraub" -> "Mike Pullin";
@@ -641,6 +644,9 @@ digraph brotherhood {
 	"Steve Wentzel" -> "Alex Smith";
 	"Andy West" -> "Nick Brienza";
 	"Andy West" -> "Justin Shepard";
+	"Matt Whelan" -> "Graham Unger";
+	"Matt Whelan" -> "Michael St. Clair";
+	"Robert Wiesler" -> "Mason Zhu";
 	"Paul Williams" -> "Dave Reid";
 	"Paul Williams" -> "Dave Kjeldgaard";
 	"Paul Williams" -> "Dave Marvinney";
@@ -650,12 +656,11 @@ digraph brotherhood {
 	"Andrew Winstead" -> "Ken Zhao";
 	"Andrew Winstead" -> "Adam Brown";
 	"Andrew Winstead" -> "Josh Young";
+	"Ben Winter" -> "Anthony Bucci";
 	"Adam Wisniewski" -> "Josh Allen";
 	"Martin Witczak" -> "Jason Dieterle";
-	"Geoff Wedig" -> "David Kahane";
-	"Geoff Wedig" -> "Joe Klich";
-	"Ben Winter" -> "Anthony Bucci";
 	"Howard Wolf" -> "Mike Witczak";
+	"Ethan Wood" -> "Josh Meyer";
 	"J.J. Wurz" -> "Brent Keith";
 	"J.J. Wurz" -> "Andy Wartluft";
 	"J.J. Wurz" -> "Mike Ganahl";
