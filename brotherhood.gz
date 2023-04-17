@@ -120,11 +120,11 @@ digraph brotherhood {
 	{ rank = same; "Fall 2011"; "Michael Bending"; "Abraham Burkholder"; "Raisa Cabrera"; "Ian Chapman"; "Matthew Graf"; "Oscar Gresh"; "Ryan Miller"; "Derek Payne"; "Aditya Rengaswamy"; "James Smith"; "Daniel Snow"; "Mark Syvuk"; "Andrew Zolyak";}
 	{ rank = same; "Spring 2012"; "Alexander Aloi"; "Nathan Hach"; "Alexander O'Reilly"; "Mason Zhu"; "Alex Campbell";}
 	{ rank = same; "Fall 2012"; "Alexander Thomas"; "Nathan Gill"; "Michael Anderson"; "Barry Goldberg"; "Andrew Becker"; "William Ewing";}
-	{ rank = same; "Spring 2013"; "Alex Balbes"; "John Elmo"; "Matthew Elmo"; "Donald Endres"; "Austin Hacker"; "Andrew Henderson"; "Alex Luck"; "Daniel Robbins"; "Jonathan Shabtai"; "Rishe Sivagnanam"; "Devyn Spillane"; "Joshua Tang"; "Hunter Yevincy";}
+	{ rank = same; "Spring 2013"; "Alex Balbes"; "John Elmo"; "Matthew Elmo"; "Donald Endres"; "Austin Hacker"; "Sofia Henderson"; "Alex Luck"; "Daniel Robbins"; "Jonathan Shabtai"; "Rishe Sivagnanam"; "Devyn Spillane"; "Joshua Tang"; "Hunter Yevincy";}
 	{ rank = same; "Fall 2013"; "Callum Grant"; "Nathan Harmon"; "Patrick Lathrop"; "Karthik Mohanarangan"; "John Turner"; "Peyton Turner";"Chris Weddle"; "Zachary Williams";}
 	{ rank = same; "Spring 2014"; "Devin Hagedorn"; "Andrew Leppo"; "James McGinnity"; "Kristopher Sabatini"; "Bennett Sherman";}
 	{ rank = same; "Fall 2014"; "Nikhil Edward"; "Alec Frye"; "Patrick Green"; "Jack LaRue"; "Patrick Mulhair"; "Geal Sarrett"; "Alex Tryjankowski";}
-	{ rank = same; "Spring 2015"; "Matthew Bentley"; "Jaime Capetillo"; "Bryce Downing"; "Ryan Hawtof"; "David Lance"; "John Peterson"; "Matthew Trowbridge";}
+	{ rank = same; "Spring 2015"; "Madison Bentley"; "Jaime Capetillo"; "Bryce Downing"; "Ryan Hawtof"; "David Lance"; "John Peterson"; "Matthew Trowbridge";}
 	{ rank = same; "Fall 2015"; "Brett Johnson"; "Robert Park"; "Joseph Picard"; "Mark Reinke"; "Michael Schaffer";}
 	{ rank = same; "Spring 2016"; "Chris Brace"; "William Ford"; "Benjamin Garner-Prouty"; "Pranav Hegde"; "James Hesse"; "Jorge Prendes"; "Kurt Schafer"; "Jeremy Zalles";}
 	{ rank = same; "Fall 2016"; "Jared Cassarly"; "Jonathan Henley"; "Jackson Kishbaugh-Maish"; "Aaron Lee"; "Tommy Lu"; "Brian Pappas";}
@@ -137,8 +137,10 @@ digraph brotherhood {
 	{ rank = same; "Spring 2020"; "Liam Brosie"; "Michael Christian"; "Sebastian Lubert"; "Teja Paladugu"; "Ethan Wood";}
 	{ rank = same; "Fall 2020"; "Josh Meyer"; "Param Mohapatra"; "Nick Ott";}
 	{ rank = same; "Spring 2021"; "Roman Putnam"; "Aaron Underwood";}
-	{ rank = same; "Fall 2021"; "Ryan Anthony"; "Colin Myers"; "Jack Reilly";}
+	{ rank = same; "Fall 2021"; "Ryan Anthony"; "Colin Myers"; "Juniper Reilly";}
 	{ rank = same; "Spring 2022"; "Zach Baldridge"; "Avalon Haney"; "Stephen Lee"; "Noah Mollerstuen";}
+	{ rank = same; "Fall 2022"; "Cooper Cheng"; "Marcus Corby"; "Ben Creiner"; "Ben Koeppen"; "Levi Ladd"; "Fletcher Li"; "Ezekiel Stahl"; "Owen Tucker"; "Eric Yarnot";}
+	{ rank = same; "Spring 2023"; "Luke Dischiave"; "Adam Hutchings"; "Alan Lee"; "Nicolas Lende"; "Ky Tan";}
 
 	//Section 3
 	/* Big brother -> Little brother.  Sorted alphabetically by big brother last name. */
@@ -147,6 +149,7 @@ digraph brotherhood {
 	"Dan Alt" -> "Glen Brown";
 	"Steve Andersen" -> "Rob Eisenman";
 	"Michael Anderson" -> "Nathan Harmon";
+	"Ryan Anthony" -> "Owen Tucker";
 	"Benjamin Asher" -> "Sean O'Toole";
 	"Benjamin Asher" -> "John Milliard";
 	"Michael Ashmore" -> "Steve Antol";
@@ -157,6 +160,7 @@ digraph brotherhood {
 	"Troy Babcock" -> "Benjamin Asher";
 	"Christopher Babecki" -> "Evan Gallo";
 	"Alex Balbes" -> "Kristopher Sabatini";
+	"Zach Baldridge" -> "Marcus Corby";
 	"Connor Balin" -> "Mathew Conger";
 	"Connor Balin" -> "Kyle Marcey";
 	"Connor Balin" -> "Vahagn Yeranossian";
@@ -182,10 +186,13 @@ digraph brotherhood {
 	"Ted Brenneman" -> "Greg Beer";
 	"Ted Brenneman" -> "Mark Bertison";
 	"Joseph Broady" -> "Walker Cox";
+	"Joseph Broady" -> "Ben Koeppen";
 	"Joseph Broady" -> "Noah Mollerstuen";
+	"Joseph Broady" -> "Luke Dischiave";
 	"Joshua Brown" -> "Mike Fullmer";
 	"Joshua Brown" -> "David Eshelman";
 	"Joshua Brown" -> "Zac Crofford";
+	"George Caddell" -> "Ben Creiner";
 	"George Caddell" -> "Avalon Haney";
 	"Alex Campbell" -> "Alexander Thomas";
 	"Alex Campbell" -> "Joshua Tang";
@@ -199,10 +206,7 @@ digraph brotherhood {
 	"Michael Caughey" -> "Ben Lawler";
 	"Jon Chang" -> "Paul Taylor";
 	"Jon Chang" -> "Andrew Schwirian";
-	"Jerry Chen" -> "Michael Christian";
-	"Jerry Chen" -> "Ryan Anthony";
-	"Jerry Chen" -> "Zach Baldridge";
-	"John Chunko" -> "Martin Wojtowicz"
+	"John Chunko" -> "Martin Wojtowicz";
 	"John Chunko" -> "Dan Khanna";
 	"Doug Clafin" -> "Stan Toncich";
 	"Doug Clafin" -> "Dave Fletcher";
@@ -327,6 +331,7 @@ digraph brotherhood {
 	"Patrick Green" -> "James Hesse";
 	"Jacob Gresh" -> "Frank Singel";
 	"Neil Halmagyi" -> "Hassan Awada";
+	"Avalon Haney" -> "Fletcher Li";
 	"Curt Harkless" -> "Joe Bonilla";
 	"Jason Harper" -> "Mike Usowicz";
 	"Chris Harley" -> "Greg Cox";
@@ -337,7 +342,7 @@ digraph brotherhood {
 	"Pranav Hegde" -> "Ben Basel"
 	"Pranav Hegde" -> "Scott Trask";
 	"Pranav Hegde" -> "Daniel Grigsby";
-	"Andrew Henderson" -> "Patrick Mulhair"
+	"Sofia Henderson" -> "Patrick Mulhair"
 	"Dale Herman" -> "Jeff Damasiewicz";
 	"Matt Hire" -> "Devon Parker";
 	"Cory Hojka" -> "Nathan Dombrook";
@@ -382,9 +387,11 @@ digraph brotherhood {
 	"Joe Klich" -> "Kendrick Shaw";
 	"Joe Klich" -> "Skylor Williams";
 	"Joe Koehler" -> "Dave Shapiro";
+	"Bradley Kolar" -> "Michael Christian";
 	"Bradley Kolar" -> "Ethan Wood";
 	"Bradley Kolar" -> "Aaron Underwood";
 	"Bradley Kolar" -> "Colin Myers";
+	"Bradley Kolar" -> "Eric Yarnot";
 	"Ken Kosovich" -> "Tom Gorensick";
 	"Ken Kosovich" -> "Rick Tomsick";
 	"Neal Kozlowski" -> "Paul May";
@@ -396,6 +403,7 @@ digraph brotherhood {
 	"Jason Kuster" -> "Ryan Miller";
 	"Jason Kuster" -> "Nathan Gill";
 	"Jason Kuster" -> "Rishe Sivagnanam";
+	"Levi Ladd" -> "Nicolas Lende";
 	"David Lance" -> "Mark Reinke";
 	"David Lance" -> "Chris Brace";
 	"David Lance" -> "Jared Cassarly";
@@ -405,6 +413,8 @@ digraph brotherhood {
 	"Jack LaRue" -> "Pranav Hegde";
 	"Jack LaRue" -> "Aaron Lee";
 	"Ben Lawler" -> "Sandy Troiani";
+	"Stephen Lee" -> "Cooper Cheng";
+	"Stephen Lee" -> "Alan Lee";
 	"Andrew Leppo" -> "David Hughes";
 	"Morris Levy" -> "Dore Shafransky";
 	"Scott Limestoll" -> "Brett Thomas";
@@ -433,7 +443,9 @@ digraph brotherhood {
 	"Dave Marvinney" -> "Joe Hrovat";
 	"Paul May" -> "Todd Kramer";
 	"Jim McAward" -> "Rich Drushel";
+	"Reilly McDowell" -> "Zach Baldridge";
 	"Reilly McDowell" -> "Sebastian Lubert";
+	"Reilly McDowell" -> "Ezekiel Stahl";
 	"Marvin McGowan" -> "Art Brace";
 	"Marvin McGowan" -> "Karl Washburn";
 	"Marvin McGowan" -> "Tom Horwitz";
@@ -460,6 +472,7 @@ digraph brotherhood {
 	"Karthik Mohanarangan" -> "Brian Pappas";
 	"Julius Moldovanyi" -> "Bob Eyerman";
 	"Julius Moldovanyi" -> "Walt Mahovlich";
+	"Noah Mollerstuen" -> "Levi Ladd";
 	"Michael Monkiewicz" -> "Jeremy Shively";
 	"Jeffrey Moore" -> "Michael Thomas";
 	"Jeffrey Moore" -> "Brion Finlay";
@@ -483,7 +496,7 @@ digraph brotherhood {
 	"Joe Nikstenas" -> "Seth Walter";
 	"Michael O'Neil" -> "Eric Carnevale";
 	"Michael O'Neil" -> "Michael Rhoades";
-	"Alexander O'Reilly" -> "Andrew Henderson";
+	"Alexander O'Reilly" -> "Sofia Henderson";
 	"Kevin O'Toole" -> "Curt Harkless";
 	"Kevin O'Toole" -> "Jim Robejsek";
 	"Zachary Olivos" -> "Nathan Hach";
@@ -545,7 +558,8 @@ digraph brotherhood {
 	"Randy Rouda" -> "Eric Meyer";
 	"Randy Rouda" -> "Ned Johnson";
 	"John Rusek" -> "Scott Sparenberg";
-	"Joseph Sanchez" -> "Jack Reilly";
+	"Joseph Sanchez" -> "Ryan Anthony";
+	"Joseph Sanchez" -> "Juniper Reilly";
 	"Joseph Sanchez" -> "Stephen Lee";
 	"Michael Schaffer" -> "Jorge Prendes";
 	"Michael Schaffer" -> "Jonathan Henley";
@@ -588,7 +602,7 @@ digraph brotherhood {
 	"Bob Snyder" -> "Craig Austin";
 	"Bob Snyder" -> "Chris Kovski";
 	"Scott Sparenberg" -> "Terry Patterson";
-	"Devyn Spillane" -> "Matthew Bentley";
+	"Devyn Spillane" -> "Madison Bentley";
 	"Devyn Spillane" -> "Zachary Williams";
 	"Jim Stafford" -> "Amit Misra";
 	"Jim Stafford" -> "C Y Wo";
@@ -605,7 +619,6 @@ digraph brotherhood {
 	"Joshua Tang" -> "Michael Schaffer";
 	"Dave Targosky" -> "Peter Szigeti";
 	"Andy Terris" -> "Seth Rich";
-	"Andrei Tiu" -> "Jerry Chen";
 	"Andrei Tiu" -> "Nick Ott";
 	"Rick Tomsick" -> "Dale Herman";
 	"Scott Trask" -> "Chris Council";
@@ -616,6 +629,7 @@ digraph brotherhood {
 	"Paul Tripi" -> "Mark Kikta";
 	"Sandy Troiani" -> "Andrew Gerst";
 	"Alex Tryjankowski" -> "Phoebe Peters";
+	"Owen Tucker" -> "Ky Tan";
 	"Peyton Turner" -> "Andrew Leppo";
 	"Peyton Turner" -> "Jackson Kishbaugh-Maish";
 	"Will Turner" -> "Teja Paladugu";
@@ -672,6 +686,7 @@ digraph brotherhood {
 	"Howard Wolf" -> "Mike Witczak";
 	"Ethan Wood" -> "Josh Meyer";
 	"Ethan Wood" -> "Roman Putnam";
+	"Ethan Wood" -> "Adam Hutchings";
 	"J.J. Wurz" -> "Brent Keith";
 	"J.J. Wurz" -> "Andy Wartluft";
 	"J.J. Wurz" -> "Mike Ganahl";
