@@ -125,7 +125,7 @@ digraph brotherhood {
 	{ rank = same; "Fall 2013"; "Callum Grant"; "Nathan Harmon"; "Patrick Lathrop"; "Karthik Mohanarangan"; "Peyton Turner"; "John Turner"; "Chris Weddle"; "Zack Williams";}
 	{ rank = same; "Spring 2014"; "James McGinnity"; "Devin Hagedorn"; "Andrew Leppo"; "Bennett Sherman"; "Kristopher Sabatini";}
 	{ rank = same; "Fall 2014"; "Nikhil Edward"; "Alec Frye"; "Patrick Green"; "Jack LaRue"; "Patrick Mulhair"; "Geal Sarrett"; "Alex Tryjankowski";}
-	{ rank = same; "Spring 2015"; "Matthew Bentley"; "David Lance"; "John Peterson"; "Ryan Hawtof"; "Jaime Capetillo"; "Matthew Trowbridge"; "Bryce Downing";}
+	{ rank = same; "Spring 2015"; "Madison Bentley"; "David Lance"; "John Peterson"; "Ryan Hawtof"; "Jaime Capetillo"; "Matthew Trowbridge"; "Bryce Downing";}
 
 
 	//Section 3
@@ -516,7 +516,7 @@ digraph brotherhood {
 	"Bob Snyder" -> "Craig Austin";
 	"Bob Snyder" -> "Chris Kovski";
 	"Scott Sparenberg" -> "Terry Patterson";
-	"Devyn Spillane" -> "Matthew Bentley";
+	"Devyn Spillane" -> "Madison Bentley";
 	"Devyn Spillane" -> "Zack Williams";
 	"Jim Stafford" -> "Amit Misra";
 	"Jim Stafford" -> "C Y Wo";
