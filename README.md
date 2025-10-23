@@ -27,11 +27,23 @@ In order for the markup to be put into a usable form, it must first be rendered 
 
 On Debian based systems:
 
-```
+```bash
 sudo apt-get install graphviz
 ```
 
 That is all you need!
+
+On any `nix` supported system:
+
+```bash
+nix develop
+```
+To activate an graphviz environment.
+
+To build:
+```bash
+nix build
+```
 
 #### OS X ####
 

@@ -1,44 +1,25 @@
-# This is a basic workflow to help you get started with Actions
-
-name: CI
-
-# Controls when the action will run. 
+name: Releases
 on:
-  # Triggers the workflow on push or pull request events but only for the master branch
   push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
-
-  # Allows you to run this workflow manually from the Actions tab
+    tags:
+      - 'release-*'
   workflow_dispatch:
-
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
   build:
-    # The type of runner that the job will run on
     runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
+    permissions:
+      contents: write
+      id-token: write
+      pages: write
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
-      # setup graphviz environment
-      - uses: ts-graphviz/setup-graphviz@v1
-      
-      - name: Make Distribution directory
-        run: mkdir dist
-
-      # Create the PDF output
-      - name: PDF
-        run: dot -Tpdf brotherhood.gz > dist/brotherhood.pdf
-
-      # Create the SVG output
-      - name: SVG
-        run: dot -Tsvg brotherhood.gz > dist/brotherhood.svg
-        
-      - uses: actions/upload-artifact@v2
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Install Nix
+        uses: cachix/install-nix-action@v30
+      - name: Build Project
+        shell: bash
+        run: |
+          nix build --experimental-features "nix-command flakes" .#default
+      - uses: ncipollo/release-action@v1
         with:
-          name: Generated Trees
-          path: dist/
+          artifacts: "result/*"
