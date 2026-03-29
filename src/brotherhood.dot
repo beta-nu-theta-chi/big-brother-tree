@@ -137,7 +137,9 @@ digraph brotherhood {
 		-> "Spring 2024"
 		-> "Fall 2024"
 		-> "Spring 2025"
-		-> "Fall 2025";
+		-> "Fall 2025"
+		-> "Spring 2026"
+		;
 	}
 
 	//Section 2
@@ -269,10 +271,11 @@ digraph brotherhood {
 	{ rank = same; "Fall 2024"; "True Brannan"; "Michael Cogliano"; "Carl Hartmeyer"; "Cole Kerkemeyer"; "Eli Matthews"; "Trevor Nichols"; "Arda Oral"; "Aaron Thornberg";}
 	{ rank = same; "Spring 2025"; "Asher Ballard"; "Aaron Brey"; "Kavin Muthuselvan"; "Axel Leon-Lubowicz"; "Luka Perazich"; "Devin Riehle"; "Leo Yamauchi"; }
 	{ rank = same; "Fall 2025"; "Nate Brown"; "James English"; "Ares Kittell"; "Michael Lindsay"; "Timothy Van de North"; "Jack Overman"; "Uddalak Sarkar"; }
+	{ rank = same; "Spring 2026"; "Jake Andrus"; "Isaac O'Brien"; "Irv Mesias-Guzman"; "Vinayak Sharma"; "Andrew Shen"; "Oliver Thompson"; }
 
 	//Section 3
 	/* Big brother -> Little brother.  Sorted alphabetically. */
-	"Aaron Brey" -> { "Michael Lindsay" }
+	"Aaron Brey" -> { "Michael Lindsay" "Jake Andrus" }
 	"Abbott Veldhuizen" -> { "Jeremy Na" "Michael Bending" "Andrew Becker" "Austin Hacker" }
 	"Adam Hutchings" -> { "Nico Bliss-Carrascosa" "Michael Cogliano" "Leo Yamauchi" "Timothy Van de North" }
 	"Adam Wisniewski" -> "Josh Allen"
@@ -410,7 +413,7 @@ digraph brotherhood {
 	"Jacob Gresh" -> "Frank Singel"
 	"Jacob Shapiro" -> { "Tony Huron" "Andrew Gilbert" "Benjamin VanArtsdalen" }
 	"Jaime Capetillo" -> { "Benjamin Garner-Prouty" "Tommy Lu" }
-	"Jake Bridge" -> "Cole Kerkemeyer"
+	"Jake Bridge" -> { "Cole Kerkemeyer" "Oliver Thompson" }
 	"Jakob Zagone" -> "Reilly McDowell"
 	"James Cash" -> "Michael Moorman"
 	"James Covello" -> { "Brice Smith" "Joel Hauerwas" "Daniel Leskov" }
@@ -462,6 +465,7 @@ digraph brotherhood {
 	"Justin Shepard" -> "Nathan Sterret"
 	"Justin Walker" -> "Quinn Daniels"
 	"Karthik Mohanarangan" -> { "Bryce Downing" "Robert Park" "Bennett Sherman" "Jack LaRue" "Brian Pappas" }
+	"Kavin Muthuselvan" -> { "Irv Mesias-Guzman" }
 	"Ken Kosovich" -> { "Tom Gorensick" "Rick Tomsick" }
 	"Ken Ross" -> "Dave Targosky"
 	"Kenneth Walther" -> { "Abbott Veldhuizen" "Abraham Burkholder" "Barry Goldberg" }
@@ -470,7 +474,9 @@ digraph brotherhood {
 	"Kevin O'Toole" -> { "Curt Harkless" "Jim Robejsek" }
 	"Kosma Sniezko" -> { "James Cash" "Eric Young" "Jon Chang" }
 	"Ky Tan" -> { "Kyle Cousens" "Cooper West" "Aaron Thornberg" }
+	"Kyle Bickerstaff" -> "Andrew Shen"
 	"Larry Bisset" -> "John Rusek"
+	"Leo Yamauchi" -> "Isaac O'Brien"
 	"Levi Ladd" -> "Nicolas Lende"
 	"Louis Campbell" -> "Aaron Erlandson"
 	"Manna Case" -> "Julius Moldovanyi"
@@ -590,6 +596,7 @@ digraph brotherhood {
 	"Tony Waylonis" -> "Ethan Field"
 	"Trevor Nichols" -> { "Aaron Brey" "Uddalak Sarkar" }
 	"Troy Babcock" -> { "Harmeet Narang" "Benjamin Asher" }
+	"True Brannan" -> "Vinayak Sharma"
 	"Vahagn Yeranossian" -> { "James Fitzpatrick" "Daniel Snow" }
 	"Vic Walach" -> { "Tom Kuzmarski" "Dave Pheanis" }
 	"Walt Mahovlich" -> { "Doug Clafin" "Glenn Pierce" "Jim Strand" }
