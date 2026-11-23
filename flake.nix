@@ -28,7 +28,17 @@
             programs = {
               toml-sort.enable = true;
               yamlfmt.enable = true;
-              mdformat.enable = true;
+              mdformat = {
+                enable = true;
+                plugins = ps: [
+                  ps.mdformat-gfm
+                  ps.mdformat-frontmatter
+                ];
+                settings = {
+                  wrap = 88;
+                  end-of-line = "lf";
+                };
+              };
               prettier.enable = true;
               shellcheck.enable = true;
               shfmt.enable = true;
