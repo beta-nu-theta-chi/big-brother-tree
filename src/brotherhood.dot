@@ -139,6 +139,7 @@ digraph brotherhood {
 		-> "Spring 2025"
 		-> "Fall 2025"
 		-> "Spring 2026"
+		-> "Fall 2026"
 		;
 	}
 
@@ -272,6 +273,7 @@ digraph brotherhood {
 	{ rank = same; "Spring 2025"; "Asher Ballard"; "Aaron Brey"; "Kavin Muthuselvan"; "Axel Leon-Lubowicz"; "Luka Perazich"; "Devin Riehle"; "Leo Yamauchi"; }
 	{ rank = same; "Fall 2025"; "Nate Brown"; "James English"; "Ares Kittell"; "Michael Lindsay"; "Timothy Van de North"; "Jack Overman"; "Uddalak Sarkar"; }
 	{ rank = same; "Spring 2026"; "Jake Andrus"; "Isaac O'Brien"; "Irv Mesias-Guzman"; "Vinayak Sharma"; "Andrew Shen"; "Oliver Thompson"; }
+	{ rank = same; "Fall 2026"; "Benji Baruch"; "Santosh Akilesh Kumar"; "Edwin Wainwright"; }
 
 	//Section 3
 	/* Big brother -> Little brother.  Sorted alphabetically. */
@@ -330,7 +332,7 @@ digraph brotherhood {
 	"Bruce Delaney" -> { "Patrick Nevers" "Siva Paramanandam" }
 	"Bryan Inderhees" -> { "Jeffery Spencer" "Robert Detwiler" }
 	"Bryce Downing" -> { "Bronson Hausman" "Rishi Solanki" "Jeremy Zalles" }
-	"Carl Hartmeyer" -> "Devin Riehle"
+	"Carl Hartmeyer" -> { "Devin Riehle" "Benji Baruch" }
 	"Cedric Dilsizian" -> { "William Patterson" "Manna Case" }
 	"Charles Gerner" -> { "Steve Olk" "Ed Wyzykowski" "Alex Parker" "Nick Eddy" }
 	"Charles Pairan" -> { "JJ Moffitt" "Donald Huckle" }
@@ -384,6 +386,7 @@ digraph brotherhood {
 	"Doug Clafin" -> { "Stan Toncich" "Dave Fletcher" }
 	"Doug Day" -> "Paul Williams"
 	"Edgar Stehli" -> { "Rob Hurd" "Leon Kofman" }
+	"Ege Dalcan" -> "Edwin Wainwright"
 	"Eric Friesen" -> { "Blaine Evans" "Kosma Sniezko" "Marc Reynolds" }
 	"Eric Kugler" -> { "Chris Weigold" "Matt Whelan" "Steve Wentzel" "Ian Scholdberg" }
 	"Eric Yarnot" -> { "James Gomez-Faulk" "Jake Bridge" "Carl Hartmeyer" "Ares Kittell" }
@@ -596,7 +599,7 @@ digraph brotherhood {
 	"Tony Waylonis" -> "Ethan Field"
 	"Trevor Nichols" -> { "Aaron Brey" "Uddalak Sarkar" }
 	"Troy Babcock" -> { "Harmeet Narang" "Benjamin Asher" }
-	"True Brannan" -> "Vinayak Sharma"
+	"True Brannan" -> { "Vinayak Sharma" "Santosh Akilesh Kumar" }
 	"Vahagn Yeranossian" -> { "James Fitzpatrick" "Daniel Snow" }
 	"Vic Walach" -> { "Tom Kuzmarski" "Dave Pheanis" }
 	"Walt Mahovlich" -> { "Doug Clafin" "Glenn Pierce" "Jim Strand" }
